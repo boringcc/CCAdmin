@@ -155,7 +155,7 @@
                          </div>
                          -->
                          <span class="pull-right" style="padding-right:3%;"><a href="javascript:changepage(2);" class="btn btn-success">取消</a></span>
-                         <span class="pull-right"><a onclick="register();" class="flip-link btn btn-info" id="to-recover">提交</a></span>
+                         <span class="pull-right"><a onclick="register()" class="flip-link btn btn-info" id="to-recover">提交</a></span>
                      </div>
                  </div>
              </form>
@@ -199,7 +199,7 @@
             var code = loginname+","+password;
             $.ajax({
                 type: "POST",
-                url: "${path}/login_login",
+                url: "/login_login",
                 data: {KEYDATA:code},
                 dataType: 'json',
                 cache: false,
@@ -219,13 +219,6 @@
             });
         }
     }
-
-
-
-
-
-
-
 
     //客户端校验
     function check(){
@@ -313,22 +306,21 @@
             var nowtime = date2str(new Date(),"yyyyMMdd");
             $.ajax({
                 type: "POST",
-                url: 'appSysUser/registerSysUser.do',
-                data: {USERNAME:$("#USERNAME").val(),PASSWORD:$("#PASSWORD").val(),NAME:$("#name").val(),EMAIL:$("#EMAIL").val(),rcode:$("#rcode").val(),FKEY:$.md5('USERNAME'+nowtime+',fh,'),tm:new Date().getTime()},
+                url: "appSysUser/registerSysUser",
+                data: {USERNAME:$("#USERNAME").val(),PASSWORD:$("#PASSWORD").val(),NAME:$("#name").val(),EMAIL:$("#EMAIL").val(),tm:new Date().getTime()},
                 dataType:'json',
                 cache: false,
                 success: function(data){
-                    if("00" == data.result){
-                        $("#window-register").hide();
-                        $("#window-login").show();
+                    if("00" == data.extend.result){
+                        alert(1);
                         $("#loginbox").tips({
                             side : 1,
                             msg : '注册成功,请登录',
                             bg : '#68B500',
                             time : 3
                         });
-                        changeCode1();
-                    }else if("04" == data.result){
+
+                    }else if("04" == data.extend.result){
                         $("#USERNAME").tips({
                             side : 1,
                             msg : "用户名已存在",
