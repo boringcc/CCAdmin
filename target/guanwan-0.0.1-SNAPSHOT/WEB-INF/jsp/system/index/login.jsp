@@ -23,9 +23,54 @@
     <link rel="stylesheet" href="static/login/matrix-login.css" />
     <link href="static/login/font-awesome.css" rel="stylesheet" />
     <script type="text/javascript" src="/static/login/js/jquery-1.5.1.min.js"></script>
+
+<style type="text/css">
+    .cavs{
+        z-index: 1;
+        position: fixed;
+        width: 95%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+</style>
+<script>
+    var timer;
+    var fhi = 1;
+    var current = 0;
+    var current2 = 1;
+    function showfh() {
+        fhi = 1;
+        //setInterval 按照指定的时间周期性执行函数
+        timer = setInterval(xzfh2,10);
+    };
+
+    function xzfh() {
+        current = (current)%360;
+        //transform 可以让元素进行旋转等操作，rotate + 数值 + deg(度数) 进行多少度的旋转，实现抖动效果
+        document.body.style.transform = 'rotate('+ current + 'deg)';
+        current++;
+        if(current>360){current=0;}
+    };
+    function xzfh2() {
+        if(fhi>50){
+            document.body.style.transform = 'rotate(0deg)';
+            clearInterval(timer);
+            return;
+        }
+        current = (current2)%360;
+        document.body.style.transform = 'rotate(' + current + 'deg)';
+        current ++;
+        if(current2 == 1){current2 = -1;}
+        else{current2 = 1 ;}
+        fhi++;
+    };
+</script>
+
+
 </head>
 <body>
 
+  <canvas class="cavs"></canvas>
   <div style="width:100%;text-align: center;margin: 0 auto;position: absolute;">
     <!--登录窗口 -->
      <div id="window-login">
@@ -213,6 +258,7 @@
                             bg : 'FF5080',
                             time : 15
                         });
+                        showfh();
                         $("#loginname").focus();
                     }
                 }
@@ -230,6 +276,7 @@
                 bg : '#AE81FF',
                 time : 3
             });
+            showfh();
             $("#loginname").focus();
             return false;
         } else {
@@ -242,6 +289,7 @@
                 bg : '#AE81FF',
                 time : 3
             });
+            showfh();
             $("#password").focus();
             return false;
         }
@@ -327,6 +375,7 @@
                             bg : '#FF5080',
                             time : 15
                         });
+                        showfh();
                         $("#USERNAME").focus();
                     }
                 }
