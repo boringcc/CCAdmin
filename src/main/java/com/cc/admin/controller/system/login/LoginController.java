@@ -33,7 +33,7 @@ public class LoginController extends BaseController{
         mv.addObject("pd",pd);
         return mv;
     }
-
+///Users/chenchao/Documents/workspace/CCAdmin
     @RequestMapping(value = "/login_login",produces="application/json;charset=UTF-8",method = RequestMethod.POST)
     @ResponseBody
     public Object login() throws Exception {
