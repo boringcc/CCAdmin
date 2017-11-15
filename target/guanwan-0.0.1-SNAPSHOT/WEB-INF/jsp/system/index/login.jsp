@@ -41,17 +41,10 @@
     function showfh() {
         fhi = 1;
         //setInterval 按照指定的时间周期性执行函数
-        timer = setInterval(xzfh2,10);
+        timer = setInterval(xzfh,10);
     };
-
+    //transform 可以让元素进行旋转等操作，rotate + 数值 + deg(度数) 进行多少度的旋转，实现抖动效果
     function xzfh() {
-        current = (current)%360;
-        //transform 可以让元素进行旋转等操作，rotate + 数值 + deg(度数) 进行多少度的旋转，实现抖动效果
-        document.body.style.transform = 'rotate('+ current + 'deg)';
-        current++;
-        if(current>360){current=0;}
-    };
-    function xzfh2() {
         if(fhi>50){
             document.body.style.transform = 'rotate(0deg)';
             clearInterval(timer);

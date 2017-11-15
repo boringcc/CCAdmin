@@ -6,6 +6,7 @@ import java.util.Map;
 import javax.annotation.Resource;
 
 import com.cc.admin.entity.Msg;
+import com.cc.admin.util.*;
 import org.apache.shiro.crypto.hash.SimpleHash;
 import org.apache.shiro.session.Session;
 import org.springframework.stereotype.Controller;
@@ -15,10 +16,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.cc.admin.controller.base.BaseController;
 import com.cc.admin.service.system.user.UserManager;
-import com.cc.admin.util.AppUtil;
-import com.cc.admin.util.Const;
-import com.cc.admin.util.PageData;
-import com.cc.admin.util.Tools;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
@@ -42,15 +39,7 @@ public class RegisterController extends BaseController{
     /**
      * 系统用户注册接口
      */
-    @RequestMapping(value = "/to_success")
-    public ModelAndView toLogin(){
-        ModelAndView mv = this.getModelAndView();
-        PageData pd = new PageData();
-        pd = this.getPageData();
-        mv.setViewName("success");
-        mv.addObject("pd",pd);
-        return mv;
-    }
+
 
     @RequestMapping(value = "/registerSysUser",method = RequestMethod.POST)
     @ResponseBody
@@ -61,6 +50,8 @@ public class RegisterController extends BaseController{
         pd = this.getPageData();
         String result = "01";
         try {
+            Session session = Jurisdiction.getSession();
+            //判断验证码代写
             pd.put("USER_ID", this.get32UUID());
             pd.put("ROLE_ID", "3");                    //角色ID 3 为注册用户
             pd.put("NUMBER", "");                    //编号
