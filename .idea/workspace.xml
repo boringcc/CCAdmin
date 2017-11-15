@@ -10,18 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23e4c1ac-dcae-4744-8860-2792db009d02" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/controller/system/login/LoginController.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/controller/app/sysuser/RegisterController.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/controller/app/sysuser/RegisterController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/controller/app/sysuser/RegisterController.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/controller/app/sysuser/RegisterController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/controller/system/login/LoginController.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/controller/system/login/LoginController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cc/admin/entity/system/Menu.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cc/admin/interceptor/LoginHandlerInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cc/admin/interceptor/shiro/ShiroRealm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cc/admin/service/system/menu/MenuManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cc/admin/service/system/menu/impl/MenuService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cc/admin/util/Jurisdiction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/ehcache.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/system/MenuMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring/ApplicationContext-shiro.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cc/admin/controller/app/sysuser/RegisterController.java" afterPath="$PROJECT_DIR$/src/main/java/com/cc/admin/controller/app/sysuser/RegisterController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cc/admin/controller/system/login/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/cc/admin/controller/system/login/LoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/index/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/index/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/jsp/system/index/login.jsp" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/jsp/system/index/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -242,8 +240,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="641" />
-    <option name="y" value="23" />
+    <option name="x" value="611" />
+    <option name="y" value="1" />
     <option name="width" value="1096" />
     <option name="height" value="1040" />
   </component>
@@ -748,7 +746,7 @@
       <workItem from="1510560314041" duration="509000" />
       <workItem from="1510560825317" duration="5463000" />
       <workItem from="1510621867248" duration="13250000" />
-      <workItem from="1510723390870" duration="90000" />
+      <workItem from="1510723390870" duration="512000" />
     </task>
     <task id="LOCAL-00001" summary="加入了错误发生抖动的效果。">
       <created>1510577979507</created>
@@ -757,14 +755,21 @@
       <option name="project" value="LOCAL" />
       <updated>1510577979507</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加了按钮的Service层和mapper.xml，正在完善按钮方面的controller层。">
+      <created>1510723569852</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1510723569852</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110821000" />
+    <option name="totallyTimeSpent" value="111243000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="641" y="23" width="1096" height="1040" extended-state="0" />
+    <frame x="611" y="1" width="1096" height="1040" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2879046" sideWeight="0.50498754" order="7" side_tool="true" content_ui="tabs" />
@@ -845,7 +850,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="加入了错误发生抖动的效果。" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入了错误发生抖动的效果。" />
+    <MESSAGE value="添加了按钮的Service层和mapper.xml，正在完善按钮方面的controller层。" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了按钮的Service层和mapper.xml，正在完善按钮方面的controller层。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -989,6 +995,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-713">
           <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -996,6 +1003,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1003,6 +1011,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1017,6 +1026,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1031,6 +1041,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="583">
           <caret line="552" column="22" lean-forward="false" selection-start-line="552" selection-start-column="22" selection-end-line="552" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1066,6 +1077,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <folding>
+            <element signature="e#1205#1221#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1114,6 +1128,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="373" column="16" lean-forward="false" selection-start-line="373" selection-start-column="16" selection-end-line="373" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
