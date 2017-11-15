@@ -7,6 +7,7 @@ import com.cc.admin.entity.system.Menu;
 import com.cc.admin.entity.system.Role;
 import com.cc.admin.entity.system.User;
 import com.cc.admin.service.system.menu.MenuManager;
+import com.cc.admin.service.system.role.RoleManager;
 import com.cc.admin.service.system.user.UserManager;
 import com.cc.admin.service.system.user.impl.UserService;
 import com.cc.admin.util.*;
@@ -25,8 +26,10 @@ import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.crypto.hash.SimpleHash;
 import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.Subject;
+import sun.jvm.hotspot.tools.Tool;
 
 import javax.annotation.Resource;
+import javax.jws.soap.SOAPBinding;
 import javax.naming.Name;
 
 
@@ -40,10 +43,10 @@ public class LoginController extends BaseController{
 
     @Resource(name = "userService")
     private UserManager userService;
-
     @Resource(name = "menuService")
     private MenuManager menuService;
-
+    @Resource(name = "roleService")
+    private RoleManager roleService;
 
     @RequestMapping(value = "/login_toLogin")
     public ModelAndView toLogin(){
@@ -154,14 +157,149 @@ public class LoginController extends BaseController{
      * 菜单缓存
      */
     @SuppressWarnings("unchecked")
-    public List<Menu> getAttributeMenu(Session session,String USERNAME, String roleRights){
+    public List<Menu> getAttributeMenu(Session session,String USERNAME, String roleRights) throws Exception {
         List<Menu> allMenuList = new ArrayList<Menu>();
         if(null == session.getAttribute(USERNAME+ Const.SESSION_allmenuList)){
-            //allMenuList =
+            //MENU_ID=0 代表所有的按钮
+            allMenuList = menuService.listAllMenu("0");
+            //权限判断先放一边，先做出大概的效果
+            //if(Tools.notEmpty(roleRights)){
+            //    allMenuList = this.readMenu(allMenuList,roleRights);
+            //}
+            session.setAttribute(USERNAME + Const.SESSION_allmenuList,allMenuList);
+        }else {
+            allMenuList = (List<Menu>) session.getAttribute(USERNAME+Const.SESSION_allmenuList);
         }
 
         return allMenuList;
     }
+
+    /**切换菜单处理
+     * @param allmenuList
+     * @param session
+     * @param USERNAME
+     * @param changeMenu
+     * @return
+     */
+    @SuppressWarnings("unchecked")
+    public List<Menu> changeMenuF(List<Menu> allmenuList,Session session,String USERNAME, String changeMenu){
+        List<Menu> menuList = new ArrayList<Menu>();
+
+        if(null == session.getAttribute(USERNAME + Const.SESSION_allmenuList)) {
+            List<Menu> menuList1 = new ArrayList<Menu>();
+            List<Menu> menuList2 = new ArrayList<Menu>();
+            for (int i = 0;i < allmenuList.size();i++){
+                Menu menu =allmenuList.get(i);
+                //1是系统类型  2 是业务类型
+                if("1".equals(menu.getMENU_TYPE())){
+                    menuList1.add(menu);
+                }else {
+                    menuList2.add(menu);
+                }
+            }
+
+            session.removeAttribute(USERNAME + Const.SESSION_menuList);
+            if("2".equals(session.getAttribute("changeMenu"))){
+                session.setAttribute(USERNAME + Const.SESSION_menuList,menuList1);
+                session.removeAttribute("changeMenu");
+                session.setAttribute("changeMenu","1");
+                menuList = menuList1;
+            }else {
+                session.setAttribute(USERNAME + Const.SESSION_menuList,menuList2);
+                session.removeAttribute("changeMenu");
+                session.setAttribute("changeMenu","2");
+                menuList = menuList2;
+            }
+        }else {
+            menuList = (List<Menu>) session.getAttribute(USERNAME + Const.SESSION_menuList);
+        }
+        return menuList;
+    }
+
+
+    /**
+    * 进入首页后的默认页面
+    * @return
+    * @throws Exception
+    */
+    @RequestMapping(value = "/login_default")
+    public ModelAndView defaultPage() throws Exception{
+        ModelAndView mv = this.getModelAndView();
+        PageData pd = new PageData();
+        pd.put("userCount", Integer.parseInt(userService.getUserCount("").get("userCount").toString())-1);
+        //会员暂时放一边，做个虚假的人数
+        pd.put("appUserCount", 10);
+        mv.addObject("pd",pd);
+        mv.setViewName("system/index/default");
+        return mv;
+    }
+
+    /**
+     *
+     * @return
+     * @throws Exception
+     */
+
+    @RequestMapping(value = "/logout")
+    public ModelAndView logout() throws Exception{
+        ModelAndView mv =  this.getModelAndView();
+        String USERNAME = Jurisdiction.getUsername();
+        PageData pd = new PageData();
+        //清除缓存
+        this.removeSession(USERNAME);
+        //shiro销毁登录
+        Subject subject = SecurityUtils.getSubject();
+        subject.logout();
+        pd = this.getPageData();
+        pd.put("msg", pd.getString("msg"));
+        //pd = this.setLoginPd(pd); //设置登录页面的参数配置
+        mv.setViewName("system/index/login");
+        mv.addObject("pd",pd);
+        return mv;
+    }
+
+    /**
+     *设置登录页面的配置参数
+     * @param pd
+     * @return
+     */
+    public PageData setLoginPd(PageData pd){
+        pd.put("SYSNAME", Tools.readTxtFile(Const.SYSNAME));
+        String strLOGINEDIT = Tools.readTxtFile(Const.LOGINEDIT);
+        if(null != strLOGINEDIT && !"".equals(strLOGINEDIT)){
+            String strLo[] = strLOGINEDIT.split("fh");
+            if(strLo.length == 2){
+                pd.put("isZhuce", strLo[0]);
+                pd.put("isMusic", strLo[1]);
+            }
+        }
+        return pd;
+    }
+
+
+    public Map<String,String> getUQX(String USERNAME){
+        PageData pd = new PageData();
+        Map<String,String> map = new HashMap<String, String>();
+        try{
+            pd.put(Const.SESSION_USERNAME, USERNAME);
+            pd.put("ROLE_ID",userService.findByUsername(pd).get("ROLE_ID").toString());
+            pd = roleService.findObjectById(pd);
+            map.put("adds",pd.getString("ADD_QX"));
+            map.put("dels", pd.getString("DEL_QX"));	//删
+            map.put("edits", pd.getString("EDIT_QX"));	//改
+            map.put("chas", pd.getString("CHA_QX"));	//查
+            List<PageData> buttonQXnamelist = new ArrayList<PageData>();
+            if("admin".equals(USERNAME)){
+
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return map;
+    }
+
+
 
     /**
      * 清理session
