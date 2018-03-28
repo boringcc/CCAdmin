@@ -73,7 +73,6 @@ public class RegisterController extends BaseController{
         }finally {
             map.put("result",result);
         }
-        System.out.println("register result:" + map.get("result"));
         return Msg.success().add("result",result);
     }
 

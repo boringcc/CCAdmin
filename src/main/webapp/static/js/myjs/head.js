@@ -33,7 +33,7 @@ $(function(){
 });
 
 //初始页面信息
-function getHeadMsg(){
+    function getHeadMsg(){
 	$.ajax({
 		type: "POST",
 		url: locat+'/head/getList.do?tm='+new Date().getTime(),

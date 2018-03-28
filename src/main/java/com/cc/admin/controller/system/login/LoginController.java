@@ -6,6 +6,8 @@ import com.cc.admin.entity.Page;
 import com.cc.admin.entity.system.Menu;
 import com.cc.admin.entity.system.Role;
 import com.cc.admin.entity.system.User;
+import com.cc.admin.service.system.buttonrights.ButtonrightsManager;
+import com.cc.admin.service.system.fhbutton.FhbuttonManager;
 import com.cc.admin.service.system.menu.MenuManager;
 import com.cc.admin.service.system.role.RoleManager;
 import com.cc.admin.service.system.user.UserManager;
@@ -26,11 +28,12 @@ import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.crypto.hash.SimpleHash;
 import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.Subject;
-import sun.jvm.hotspot.tools.Tool;
+
 
 import javax.annotation.Resource;
 import javax.jws.soap.SOAPBinding;
 import javax.naming.Name;
+import javax.servlet.http.HttpServletRequest;
 
 
 import java.util.ArrayList;
@@ -47,6 +50,12 @@ public class LoginController extends BaseController{
     private MenuManager menuService;
     @Resource(name = "roleService")
     private RoleManager roleService;
+    @Resource(name = "buttonrightsService")
+    private ButtonrightsManager buttonrightsService;
+    @Resource(name = "fhbuttonService")
+    private FhbuttonManager fhbuttonService;
+
+
 
     @RequestMapping(value = "/login_toLogin")
     public ModelAndView toLogin(){
@@ -142,14 +151,26 @@ public class LoginController extends BaseController{
                 session.setAttribute(Const.SESSION_USERNAME, USERNAME);
                 //用户机构权限以后写this.setAttributeToAllDEPARTMENT_ID(session, USERNAME);
                 List<Menu> allMenuList = new ArrayList<Menu>();
-
+                allMenuList = this.getAttributeMenu(session,USERNAME,roleRighs);
+                List<Menu> menuList = new ArrayList<Menu>();
+                menuList = this.changeMenuF(allMenuList, session, USERNAME , changeMenu);
+                if(null == session.getAttribute(USERNAME + Const.SESSION_QX)){
+                    session.setAttribute(USERNAME + Const.SESSION_QX, this.getUQX(USERNAME));
+                }
+                this.getRemortIP(USERNAME);
+                mv.setViewName("system/index/main");
+                mv.addObject("user", user);
+                mv.addObject("menuList",menuList);
+            }else {
+                mv.setViewName("system/index/login");
             }
 
         }catch (Exception e){
-
+            e.printStackTrace();
+            mv.setViewName("system/index/login");
         }
-
-
+        pd.put("SYSNAME",Tools.readTxtFile(Const.SYSNAME));
+        mv.addObject("pd",pd);
         return  mv;
     }
 
@@ -163,14 +184,13 @@ public class LoginController extends BaseController{
             //MENU_ID=0 代表所有的按钮
             allMenuList = menuService.listAllMenu("0");
             //权限判断先放一边，先做出大概的效果
-            //if(Tools.notEmpty(roleRights)){
-            //    allMenuList = this.readMenu(allMenuList,roleRights);
-            //}
+        //    if(Tools.notEmpty(roleRights)){
+        //        allMenuList = this.readMenu(allMenuList,roleRights);
+        //    }
             session.setAttribute(USERNAME + Const.SESSION_allmenuList,allMenuList);
         }else {
             allMenuList = (List<Menu>) session.getAttribute(USERNAME+Const.SESSION_allmenuList);
         }
-
         return allMenuList;
     }
 
@@ -184,8 +204,7 @@ public class LoginController extends BaseController{
     @SuppressWarnings("unchecked")
     public List<Menu> changeMenuF(List<Menu> allmenuList,Session session,String USERNAME, String changeMenu){
         List<Menu> menuList = new ArrayList<Menu>();
-
-        if(null == session.getAttribute(USERNAME + Const.SESSION_allmenuList)) {
+        if(null == session.getAttribute(USERNAME + Const.SESSION_menuList)|| ("yes".equals(changeMenu))) {
             List<Menu> menuList1 = new ArrayList<Menu>();
             List<Menu> menuList2 = new ArrayList<Menu>();
             for (int i = 0;i < allmenuList.size();i++){
@@ -197,7 +216,6 @@ public class LoginController extends BaseController{
                     menuList2.add(menu);
                 }
             }
-
             session.removeAttribute(USERNAME + Const.SESSION_menuList);
             if("2".equals(session.getAttribute("changeMenu"))){
                 session.setAttribute(USERNAME + Const.SESSION_menuList,menuList1);
@@ -214,6 +232,11 @@ public class LoginController extends BaseController{
             menuList = (List<Menu>) session.getAttribute(USERNAME + Const.SESSION_menuList);
         }
         return menuList;
+    }
+
+    @RequestMapping(value = "/tab")
+    public String tab(){
+        return "system/index/tab";
     }
 
 
@@ -234,7 +257,7 @@ public class LoginController extends BaseController{
         return mv;
     }
 
-    /**
+    /**用户注销
      *
      * @return
      * @throws Exception
@@ -276,6 +299,12 @@ public class LoginController extends BaseController{
         return pd;
     }
 
+    /**
+     * 获取用户权限
+     * @param USERNAME
+     * @return
+     */
+
 
     public Map<String,String> getUQX(String USERNAME){
         PageData pd = new PageData();
@@ -284,21 +313,43 @@ public class LoginController extends BaseController{
             pd.put(Const.SESSION_USERNAME, USERNAME);
             pd.put("ROLE_ID",userService.findByUsername(pd).get("ROLE_ID").toString());
             pd = roleService.findObjectById(pd);
-            map.put("adds",pd.getString("ADD_QX"));
+            map.put("adds",pd.getString("ADD_QX"));    //增
             map.put("dels", pd.getString("DEL_QX"));	//删
             map.put("edits", pd.getString("EDIT_QX"));	//改
             map.put("chas", pd.getString("CHA_QX"));	//查
             List<PageData> buttonQXnamelist = new ArrayList<PageData>();
             if("admin".equals(USERNAME)){
-
+                buttonQXnamelist = fhbuttonService.listAll(pd);
+            }else {
+                buttonQXnamelist = buttonrightsService.listAllBrAndQxname(pd);
             }
+            for(int i = 0;i < buttonQXnamelist.size(); i++){
+                map.put(buttonQXnamelist.get(i).getString("QX_NAME"),"1");
+            }
+
         } catch (Exception e) {
             e.printStackTrace();
         }
-
         return map;
     }
 
+    /** 更新登录用户的IP
+     * @param USERNAME
+     * @throws Exception
+     */
+    public void getRemortIP(String USERNAME) throws Exception {
+        PageData pd = new PageData();
+        HttpServletRequest request = this.getRequest();
+        String ip = "";
+        if (request.getHeader("x-forwarded-for") == null) {
+            ip = request.getRemoteAddr();
+        }else{
+            ip = request.getHeader("x-forwarded-for");
+        }
+        pd.put("USERNAME", USERNAME);
+        pd.put("IP", ip);
+        userService.saveIP(pd);
+    }
 
 
     /**

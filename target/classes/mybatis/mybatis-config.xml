@@ -12,19 +12,21 @@
     <typeAliases>
         <typeAlias type="com.cc.admin.entity.system.User" alias="User"/>
         <typeAlias type="com.cc.admin.entity.system.Role" alias="Role"/>
-
+        <typeAlias type="com.cc.admin.entity.system.Menu" alias="Menu"/>
+        <typeAlias type="com.cc.admin.entity.system.Dictionaries" alias="Dictionaries"/>
+        <typeAlias type="com.cc.admin.entity.system.Department" alias="Department"/>
         <!-- 这里添加生成的实体类 -->
         <typeAlias type="com.cc.admin.util.PageData" alias="pd"/>
         <!-- 分页 -->
         <typeAlias type="com.cc.admin.entity.Page" alias="Page"/>
     </typeAliases>
 
-	<!--
+
 	<plugins>
-		<plugin interceptor="com.fh.plugin.PagePlugin">
+		<plugin interceptor="com.cc.admin.plugin.PagePlugin">
 			<property name="dialect" value="mysql"/>
 			<property name="pageSqlId" value=".*listPage.*"/>
 		</plugin>
 	</plugins>
-	-->
+
 </configuration>

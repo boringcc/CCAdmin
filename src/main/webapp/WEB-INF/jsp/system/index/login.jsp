@@ -17,12 +17,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="static/login/bootstrap.min.css" />
-    <link rel="stylesheet" href="static/login/css/camera.css" />
-    <link rel="stylesheet" href="static/login/bootstrap-responsive.min.css" />
-    <link rel="stylesheet" href="static/login/matrix-login.css" />
-    <link href="static/login/font-awesome.css" rel="stylesheet" />
-    <script type="text/javascript" src="/static/login/js/jquery-1.5.1.min.js"></script>
+    <link rel="stylesheet" href="${APP_PATH}/static/login/bootstrap.min.css" />
+    <link rel="stylesheet" href="${APP_PATH}/static/login/css/camera.css" />
+    <link rel="stylesheet" href="${APP_PATH}/static/login/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="${APP_PATH}/static/login/matrix-login.css" />
+    <link href="${APP_PATH}/static/login/font-awesome.css" rel="stylesheet" />
+    <script type="text/javascript" src="${APP_PATH}/static/login/js/jquery-1.5.1.min.js"></script>
 
 <style type="text/css">
     .cavs{
@@ -243,7 +243,8 @@
                 cache: false,
                 success:function(data){
                     if("success" == data.extend.result){
-                        alert(1);
+                        saveCookie();
+                        window.location.href = "main/index";
                     }else if("usererror" == data.extend.result){
                         $("#loginname").tips({
                             side : 1,
@@ -445,6 +446,17 @@
         return true;
     }
 
+    function saveCookie() {
+        if ($("#saveid").attr("checked")) {
+            $.cookie('loginname', $("#loginname").val(), {
+                expires : 7
+            });
+            $.cookie('password', $("#password").val(), {
+                expires : 7
+            });
+        }
+    }
+
     //邮箱格式校验
     function ismail(mail){
         return(new RegExp(/^(?:[a-zA-Z0-9]+[_\-\+\.]?)*[a-zA-Z0-9]+@(?:([a-zA-Z0-9]+[_\-]?)*[a-zA-Z0-9]+\.)+([a-zA-Z]{2,})+$/).test(mail));
@@ -460,16 +472,16 @@
 
 
 
-        <script src="static/login/js/bootstrap.min.js"></script>
-        <script src="static/js/jquery-1.7.2.js"></script>
-        <script src="static/login/js/jquery.easing.1.3.js"></script>
-        <script src="static/login/js/jquery.mobile.customized.min.js"></script>
-        <script src="static/login/js/camera.min.js"></script>
-        <script src="static/login/js/templatemo_script.js"></script>
+        <script src="${APP_PATH}/static/login/js/bootstrap.min.js"></script>
+        <script src="${APP_PATH}/static/js/jquery-1.7.2.js"></script>
+        <script src="${APP_PATH}/static/login/js/jquery.easing.1.3.js"></script>
+        <script src="${APP_PATH}/static/login/js/jquery.mobile.customized.min.js"></script>
+        <script src="${APP_PATH}/static/login/js/camera.min.js"></script>
+        <script src="${APP_PATH}/static/login/js/templatemo_script.js"></script>
 
-        <script type="text/javascript" src="static/js/jQuery.md5.js"></script>
-        <script type="text/javascript" src="static/js/jquery.tips.js"></script>
-        <script type="text/javascript" src="static/js/jquery.cookie.js"></script>
+        <script type="text/javascript" src="${APP_PATH}/static/js/jQuery.md5.js"></script>
+        <script type="text/javascript" src="${APP_PATH}/static/js/jquery.tips.js"></script>
+        <script type="text/javascript" src="${APP_PATH}/static/js/jquery.cookie.js"></script>
 
 </body>
 </html>

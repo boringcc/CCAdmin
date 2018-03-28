@@ -22,21 +22,16 @@ public class PageData extends HashMap implements Map{
 	public PageData(HttpServletRequest request){
 		this.request = request;
 		Map properties = request.getParameterMap();
-		System.out.println("------------------>properties:" + properties.toString());
-		Map returnMap = new HashMap(); 
+		Map returnMap = new HashMap();
 		Iterator entries = properties.entrySet().iterator();
-		System.out.println("------------------>entries:" + entries.toString());
 		Entry entry;
 		String name = "";
 		String value = "";
 		while (entries.hasNext()) {
 			entry = (Entry) entries.next();
-			System.out.println("------------------>entry:" + entry.toString());
 			name = (String) entry.getKey();
-			System.out.println("------------------>name:" + name);
 			Object valueObj = entry.getValue();
-			System.out.println("------------------>valueObj:" + valueObj.toString());
-			if(null == valueObj){ 
+			if(null == valueObj){
 				value = ""; 
 			}else if(valueObj instanceof String[]){ 
 				String[] values = (String[])valueObj;
@@ -47,8 +42,7 @@ public class PageData extends HashMap implements Map{
 			}else{
 				value = valueObj.toString(); 
 			}
-			System.out.println("------------------>value:" + value);
-			returnMap.put(name, value); 
+			returnMap.put(name, value);
 		}
 		map = returnMap;
 	}
