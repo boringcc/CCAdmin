@@ -117,7 +117,39 @@
 									会员管理
 								</a>
 							</li>
+						</ul>
 					</li>
+
+							<li class=""  id="3">
+								<a style="cursor:pointer;" class="dropdown-toggle">
+									<i class="menu-icon fa fa-laptop pink"></i>
+									<span class="menu-text">
+								OA办公
+							</span>
+									<b class="arrow fa fa-angle-down"></b>
+								</a>
+								<b class="arrow"></b>
+								<ul class="submenu">
+									<li class="" id="3-1">
+										<a style="cursor:pointer;" class = "dropdown-toggle" target="mainFrame" >
+											<i class="menu-icon fa fa-users green"></i>
+											组织机构
+										</a>
+									</li>
+									<li class="" id="3-2">
+										<a style="cursor:pointer;" class = "dropdown-toggle">
+											<i class="menu-icon fa fa-users blue"></i>
+											员工管理
+										</a>
+									</li>
+									<li class="" id="3-3">
+										<a style="cursor:pointer;" class = "dropdown-toggle" onclick="siMenu('fhindex','fhindex','文件管理','fhfile/list.do')">
+											<i class="menu-icon fa fa-folder-open purple"></i>
+											文件管理
+										</a>
+									</li>
+								</ul>
+							</li>
 				</ul><!-- /.nav-list -->
 
 				<!-- #section:basics/sidebar.layout.minimize -->

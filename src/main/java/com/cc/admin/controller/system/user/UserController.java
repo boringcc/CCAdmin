@@ -145,7 +145,7 @@ public class UserController extends BaseController{
         }
         userService.editU(pd);
         mv.addObject("msg","success");
-        mv.setViewName("sava_result");
+        mv.setViewName("save_result");
         return mv;
     }
 
@@ -283,7 +283,7 @@ public class UserController extends BaseController{
 
 
     /**
-     * 去新增用户界面 msg为savaU告诉前端要进行保存操作
+     * 去新增用户界面 msg为saveU告诉前端要进行保存操作
      * @return
      * @throws Exception
      */
@@ -295,7 +295,7 @@ public class UserController extends BaseController{
         pd.put("ROLE_ID","1");
         List<Role> roleList = roleService.listAllRolesByPId(pd);
         mv.setViewName("system/user/user_edit");
-        mv.addObject("msg","savaU");
+        mv.addObject("msg","saveU");
         mv.addObject("pd",pd);
         mv.addObject("roleList",roleList);
         return mv;
@@ -460,9 +460,6 @@ public class UserController extends BaseController{
     //发站内信<%=basePath%>fhsms/goAdd.do?username='+username
     //去发邮件<%=basePath%>head/goSendEmail.do?EMAIL='+EMAIL
     //去发短信页面<%=basePath%>head/goSendSms.do?PHONE='+phone+'&msg=appuser';
-    //批量删除<%=basePath%>user/deleteAllU.do?tm='+new Date().getTime(),
-    //view user <%=basePath%>user/view.do?USERNAME='+USERNAME;
-    //导出EXCEL表<%=basePath%>user/excel.do?keywords='+keywords+'&lastLoginStart='+lastLoginStart+'&lastLoginEnd='+lastLoginEnd+'&ROLE_ID='+ROLE_ID;
 
 
 

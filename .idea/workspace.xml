@@ -10,8 +10,77 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23e4c1ac-dcae-4744-8860-2792db009d02" name="Default" comment="完善了系统用户这个模块的功能">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/jsp/success.jsp" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/controller/fhoa/fhfile/CcfileController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/service/fhod/fhfile/CcfileManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/service/fhod/fhfile/impl/CcfileService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/util/DelAllFile.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/util/FileDownload.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/util/FileUtil.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/controller/fhoa/fhfile/CcfileController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/fhod/fhfile/CcfileManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/fhod/fhfile/impl/CcfileService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/DelAllFile.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/FileUtil.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cc/admin/controller/fhoa/fhfile/CcfileController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cc/admin/service/fhod/fhfile/CcfileManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cc/admin/service/fhod/fhfile/impl/CcfileService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cc/admin/util/DelAllFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cc/admin/util/FileDownload.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cc/admin/util/FileUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/fhoa/DatajurMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/fhoa/DepartmentMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/fhoa/FhfileMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/fhoa/StaffMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fhoa/datajur/datajur_edit.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fhoa/department/department_edit.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fhoa/department/department_list.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fhoa/department/department_ztree.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fhoa/fhfile/fhfile_edit.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fhoa/fhfile/fhfile_list.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fhoa/fhfile/fhfile_view_pdf.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fhoa/fhfile/fhfile_view_txt.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fhoa/staff/staff_edit.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fhoa/staff/staff_list.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mybatis/fhoa/DatajurMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mybatis/fhoa/DepartmentMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mybatis/fhoa/FhfileMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mybatis/fhoa/StaffMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/mybatis/fhoa/DatajurMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/mybatis/fhoa/DepartmentMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/mybatis/fhoa/FhfileMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/mybatis/fhoa/StaffMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/jsp/fhoa/datajur/datajur_edit.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/jsp/fhoa/department/department_edit.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/jsp/fhoa/department/department_list.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/jsp/fhoa/department/department_ztree.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/jsp/fhoa/fhfile/fhfile_edit.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/jsp/fhoa/fhfile/fhfile_list.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/jsp/fhoa/fhfile/fhfile_view_pdf.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/jsp/fhoa/fhfile/fhfile_view_txt.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/jsp/fhoa/staff/staff_edit.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/jsp/fhoa/staff/staff_list.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/uploadFiles/uploadFile/2018033012002936524.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/uploadFiles/uploadFile/2018033012083165183.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/uploadFiles/uploadFile/2018033012093577858.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/uploadFiles/uploadFile/2018033012110438208.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/uploadFiles/uploadFile/2018033012121045466.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/uploadFiles/uploadFile/2018033012123441386.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/uploadFiles/uploadFile/2018033012133592707.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/uploadFiles/uploadFile/2018033012150742270.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/uploadFiles/uploadFile/2018033012161743817.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/uploadFiles/uploadFile/2018033012172449307.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/uploadFiles/uploadFile/2018033012175774718.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/uploadFiles/uploadFile/2018033012184988951.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/uploadFiles/uploadFile/2018033012193946006.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/uploadFiles/uploadFile/2018033012370224100.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/uploadFiles/uploadFile/2018033012372689770.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/controller/system/user/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/controller/system/user/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/controller/system/user/UserController.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/controller/system/user/UserController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cc/admin/controller/base/BaseController.java" afterPath="$PROJECT_DIR$/src/main/java/com/cc/admin/controller/base/BaseController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cc/admin/controller/system/user/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/cc/admin/controller/system/user/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/index/left.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/index/left.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/jsp/system/index/left.jsp" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/jsp/system/index/left.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,94 +97,116 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/system/UserMapper.xml">
+      <file leaf-file-name="left.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/index/left.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="123" column="27" lean-forward="true" selection-start-line="123" selection-start-column="27" selection-end-line="123" selection-end-column="27" />
+            <state relative-caret-position="-132">
+              <caret line="129" column="36" lean-forward="true" selection-start-line="129" selection-start-column="36" selection-end-line="129" selection-end-column="36" />
               <folding>
-                <marker date="1500660985237" expanded="true" signature="2408:2520" ph="update set L... " />
-                <marker date="1500660985237" expanded="true" signature="2654:3002" ph="select u.USE... u" />
-                <marker date="1500660985237" expanded="true" signature="3109:3237" ph="select from where" />
-                <marker date="1500660985237" expanded="true" signature="3310:3414" ph="update set I... " />
-                <marker date="1500660985237" expanded="true" signature="3524:3618" ph="select USER_... where" />
-                <marker date="1500660985237" expanded="true" signature="3715:4884" ph="select u.USE... u" />
-                <marker date="1500660985237" expanded="true" signature="4995:6278" ph="select u.USE... u" />
-                <marker date="1500660985237" expanded="true" signature="6994:7120" ph="select from where" />
-                <marker date="1500660985237" expanded="true" signature="7192:7339" ph="insert into " />
-                <marker date="1500660985237" expanded="true" signature="7409:7738" ph="update set N... " />
-                <marker date="1500660985237" expanded="true" signature="7830:7938" ph="delete from " />
-                <marker date="1500660985237" expanded="true" signature="8021:8273" ph="delete from " />
-                <marker date="1500660985237" expanded="true" signature="8371:9492" ph="select u.USE... u" />
-                <marker date="1500660985237" expanded="true" signature="9590:9632" ph="select count... " />
+                <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#li#3;n#ul#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#li#3;n#ul#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#li#3;n#ul#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_edit.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/user/user_edit.jsp">
+      <file leaf-file-name="fhfile_edit.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fhoa/fhfile/fhfile_edit.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-96">
-              <caret line="41" column="53" lean-forward="true" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
+            <state relative-caret-position="-460">
+              <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="window_user_list.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/user/window_user_list.jsp">
+      <file leaf-file-name="fhfile_list.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fhoa/fhfile/fhfile_list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="38" column="60" lean-forward="true" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+            <state relative-caret-position="410">
+              <caret line="264" column="36" lean-forward="false" selection-start-line="264" selection-start-column="36" selection-end-line="264" selection-end-column="36" />
               <folding>
-                <element signature="e#288#459#0#JSP" expanded="false" />
+                <element signature="n#style#0;n#a#2;n#td#2;n#tr#0;n#tbody#0;n#table#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_list.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/user/user_list.jsp">
+      <file leaf-file-name="CcfileController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/controller/fhoa/fhfile/CcfileController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1568">
-              <caret line="440" column="48" lean-forward="true" selection-start-line="440" selection-start-column="48" selection-end-line="440" selection-end-column="48" />
+            <state relative-caret-position="775">
+              <caret line="218" column="7" lean-forward="true" selection-start-line="218" selection-start-column="7" selection-end-line="218" selection-end-column="7" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="method#list#0;class#CcfileController#0" expanded="false" />
+                <element signature="e#1733#1743#0" expanded="true" />
+                <element signature="method#goAdd#0;class#CcfileController#0" expanded="false" />
+                <element signature="method#save#0;class#CcfileController#0" expanded="false" />
+                <element signature="method#delete#0;class#CcfileController#0" expanded="false" />
+                <element signature="method#goViewTxt#0;class#CcfileController#0" expanded="false" />
+                <element signature="method#goViewPdf#0;class#CcfileController#0" expanded="false" />
+                <element signature="e#6963#6978#0" expanded="true" />
+                <element signature="e#7079#7089#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/controller/system/user/UserController.java">
+      <file leaf-file-name="FileDownload.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/util/FileDownload.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="346" column="24" lean-forward="true" selection-start-line="346" selection-start-column="24" selection-end-line="346" selection-end-column="24" />
+            <state relative-caret-position="368">
+              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fhfile_view_txt.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fhoa/fhfile/fhfile_view_txt.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="96" column="14" lean-forward="true" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/controller/base/BaseController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Jurisdiction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/util/Jurisdiction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="125" column="55" lean-forward="false" selection-start-line="125" selection-start-column="55" selection-end-line="125" selection-end-column="55" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#listUsers#0;class#UserController#0" expanded="false" />
-                <element signature="method#listUsersForWindow#0;class#UserController#0" expanded="false" />
-                <element signature="method#editU#0;class#UserController#0" expanded="false" />
-                <element signature="method#goEditMyU#0;class#UserController#0" expanded="false" />
-                <element signature="method#goEditU#0;class#UserController#0" expanded="false" />
-                <element signature="method#goEditUfromOnline#0;class#UserController#0" expanded="false" />
-                <element signature="method#saveU#0;class#UserController#0" expanded="false" />
-                <element signature="method#deleteU#0;class#UserController#0" expanded="false" />
-                <element signature="method#deleteAll#0;class#UserController#0" expanded="false" />
-                <element signature="e#9622#9638#0" expanded="true" />
-                <element signature="e#9687#9697#0" expanded="true" />
-                <element signature="method#goAddU#0;class#UserController#0" expanded="false" />
-                <element signature="method#view#0;class#UserController#0" expanded="false" />
-                <element signature="method#goUploadExcel#0;class#UserController#0" expanded="false" />
-                <element signature="method#readExcel#0;class#UserController#0" expanded="false" />
-                <element signature="method#hasU#0;class#UserController#0" expanded="false" />
-                <element signature="e#13021#13037#0" expanded="true" />
-                <element signature="method#hasN#0;class#UserController#0" expanded="false" />
-                <element signature="e#13675#13691#0" expanded="true" />
-                <element signature="method#hasE#0;class#UserController#0" expanded="false" />
-                <element signature="e#14329#14345#0" expanded="true" />
+                <element signature="method#hasJurisdiction#0;class#Jurisdiction#0" expanded="false" />
+                <element signature="method#readMenu#0;class#Jurisdiction#0" expanded="false" />
+                <element signature="method#buttonJurisdiction#0;class#Jurisdiction#0" expanded="false" />
+                <element signature="method#readMenuButton#0;class#Jurisdiction#0" expanded="false" />
+                <element signature="e#4104#4105#0" expanded="true" />
+                <element signature="e#4178#4179#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Const.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/util/Const.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,8 +214,8 @@
       <file leaf-file-name="save_result.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/save_result.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+            <state relative-caret-position="426">
+              <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -135,16 +226,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>top</find>
-      <find>hangge</find>
       <find>hangg</find>
       <find>ali</find>
       <find>alias</find>
@@ -173,6 +262,8 @@
       <find>userForm</find>
       <find>editU</find>
       <find>---&gt;获取用户权限</find>
+      <find>sava</find>
+      <find>save</find>
     </findStrings>
     <replaceStrings>
       <replace>id</replace>
@@ -193,15 +284,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/util/Logger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/util/UuidUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/util/AppUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/util/MapDistance.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/success.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/entity/system/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/entity/system/Role.java" />
         <option value="$PROJECT_DIR$/src/main/resources/dbconfig.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/ApplicationContext-mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/success.jsp" />
@@ -235,7 +317,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/controller/system/menu/MenuController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/controller/app/sysuser/RegisterController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/util/PageData.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/index/left.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/service/system/fhlog/FHlogManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/service/system/fhlog/impl/FHlogService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/util/ReflectHelper.java" />
@@ -244,6 +325,16 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/user/user_list.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/controller/system/login/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/controller/system/user/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/controller/fhoa/fhfile/FhfileController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/service/fhod/fhfile/CcfileManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/service/fhod/fhfile/impl/CcfileService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/index/left.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/util/FileUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fhoa/fhfile/fhfile_list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/util/DelAllFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/controller/base/BaseController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/controller/fhoa/fhfile/CcfileController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/util/FileDownload.java" />
       </list>
     </option>
   </component>
@@ -274,8 +365,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="666" />
-    <option name="width" value="1256" />
+    <option name="x" value="698" />
+    <option name="width" value="1227" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -369,6 +460,81 @@
               <item name="cc" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="fhoa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CCAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CCAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cc" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="fhoa" type="462c0819:PsiDirectoryNode" />
+              <item name="fhfile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CCAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CCAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cc" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CCAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CCAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cc" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="fhod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CCAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CCAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cc" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="fhod" type="462c0819:PsiDirectoryNode" />
+              <item name="fhfile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CCAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CCAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cc" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="fhod" type="462c0819:PsiDirectoryNode" />
+              <item name="fhfile" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CCAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CCAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cc" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="system" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -387,7 +553,69 @@
               <item name="CCAdmin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CCAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CCAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CCAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CCAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="fhoa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CCAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CCAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CCAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CCAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CCAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CCAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CCAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CCAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="fhoa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CCAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CCAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="fhoa" type="462c0819:PsiDirectoryNode" />
+              <item name="fhfile" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -412,10 +640,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\ijJavaWorkspace\CCAdmin\src\main\webapp\WEB-INF\jsp" />
+      <recent name="E:\ijJavaWorkspace\CCAdmin\src\main\resources\mybatis" />
       <recent name="E:\ijJavaWorkspace\CCAdmin\src\main\java\com\cc\admin\service\system" />
       <recent name="E:\ijJavaWorkspace\CCAdmin\src\main\webapp\WEB-INF\jsp\system" />
       <recent name="E:\ijJavaWorkspace\CCAdmin\src\main\webapp" />
-      <recent name="E:\ijJavaWorkspace\CCAdmin\src\main\java\com\cc\admin\entity\system" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.cc.admin.util" />
@@ -647,7 +875,7 @@
       <workItem from="1511511053734" duration="897000" />
       <workItem from="1522134379512" duration="38000" />
       <workItem from="1522134938107" duration="23680000" />
-      <workItem from="1522212015241" duration="11708000" />
+      <workItem from="1522212015241" duration="24624000" />
     </task>
     <task id="LOCAL-00001" summary="加入了错误发生抖动的效果。">
       <created>1510577979507</created>
@@ -674,11 +902,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177520000" />
+    <option name="totallyTimeSpent" value="190436000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="666" y="0" width="1256" height="1040" extended-state="0" />
-    <editor active="true" />
+    <frame x="698" y="0" width="1227" height="1040" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2879046" sideWeight="0.50498754" order="7" side_tool="true" content_ui="tabs" />
@@ -692,19 +919,19 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39976957" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31651375" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3159091" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3090909" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18181819" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39772728" sideWeight="0.49501246" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7943182" sideWeight="0.49501246" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.319398" sideWeight="0.49496403" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32904884" sideWeight="0.49496403" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24038461" sideWeight="0.5057637" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284091" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -766,7 +993,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -775,114 +1002,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/service/system/buttonrights/impl/ButtonrightsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/entity/system/Dictionaries.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/index/null.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/config/PAGE.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/entity/system/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-          <folding>
-            <element signature="e#1500#1501#0" expanded="false" />
-            <element signature="e#1521#1522#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/ApplicationContext-dataSource.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1219">
-          <caret line="53" column="37" lean-forward="true" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/ApplicationContext-main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/ApplicationContext-shiro.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="63" lean-forward="true" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/ApplicationContext-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="54" column="24" lean-forward="true" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/entity/Msg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/entity/system/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/entity/system/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/entity/system/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dbconfig.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/success.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -903,14 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1062">
           <caret line="75" column="37" lean-forward="false" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/controller/base/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-470">
-          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -953,14 +1064,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/util/Jurisdiction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1095,14 +1198,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/index/left.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="122" column="64" lean-forward="false" selection-start-line="122" selection-start-column="64" selection-end-line="122" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/user/window_user_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
@@ -1117,14 +1212,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/save_result.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1150,29 +1237,6 @@
         <state relative-caret-position="713">
           <caret line="78" column="11" lean-forward="true" selection-start-line="78" selection-start-column="11" selection-end-line="78" selection-end-column="11" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/system/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="123" column="27" lean-forward="true" selection-start-line="123" selection-start-column="27" selection-end-line="123" selection-end-column="27" />
-          <folding>
-            <marker date="1500660985237" expanded="true" signature="2408:2520" ph="update set L... " />
-            <marker date="1500660985237" expanded="true" signature="2654:3002" ph="select u.USE... u" />
-            <marker date="1500660985237" expanded="true" signature="3109:3237" ph="select from where" />
-            <marker date="1500660985237" expanded="true" signature="3310:3414" ph="update set I... " />
-            <marker date="1500660985237" expanded="true" signature="3524:3618" ph="select USER_... where" />
-            <marker date="1500660985237" expanded="true" signature="3715:4884" ph="select u.USE... u" />
-            <marker date="1500660985237" expanded="true" signature="4995:6278" ph="select u.USE... u" />
-            <marker date="1500660985237" expanded="true" signature="6994:7120" ph="select from where" />
-            <marker date="1500660985237" expanded="true" signature="7192:7339" ph="insert into " />
-            <marker date="1500660985237" expanded="true" signature="7409:7738" ph="update set N... " />
-            <marker date="1500660985237" expanded="true" signature="7830:7938" ph="delete from " />
-            <marker date="1500660985237" expanded="true" signature="8021:8273" ph="delete from " />
-            <marker date="1500660985237" expanded="true" signature="8371:9492" ph="select u.USE... u" />
-            <marker date="1500660985237" expanded="true" signature="9590:9632" ph="select count... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1212,8 +1276,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/controller/system/user/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="346" column="24" lean-forward="true" selection-start-line="346" selection-start-column="24" selection-end-line="346" selection-end-column="24" />
+        <state relative-caret-position="431">
+          <caret line="150" column="0" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#listUsers#0;class#UserController#0" expanded="false" />
@@ -1237,6 +1301,215 @@
             <element signature="e#13675#13691#0" expanded="true" />
             <element signature="method#hasE#0;class#UserController#0" expanded="false" />
             <element signature="e#14329#14345#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/system/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="123" column="27" lean-forward="true" selection-start-line="123" selection-start-column="27" selection-end-line="123" selection-end-column="27" />
+          <folding>
+            <marker date="1500660985237" expanded="true" signature="2408:2520" ph="update set L... " />
+            <marker date="1500660985237" expanded="true" signature="2654:3002" ph="select u.USE... u" />
+            <marker date="1500660985237" expanded="true" signature="3109:3237" ph="select from where" />
+            <marker date="1500660985237" expanded="true" signature="3310:3414" ph="update set I... " />
+            <marker date="1500660985237" expanded="true" signature="3524:3618" ph="select USER_... where" />
+            <marker date="1500660985237" expanded="true" signature="3715:4884" ph="select u.USE... u" />
+            <marker date="1500660985237" expanded="true" signature="4995:6278" ph="select u.USE... u" />
+            <marker date="1500660985237" expanded="true" signature="6994:7120" ph="select from where" />
+            <marker date="1500660985237" expanded="true" signature="7192:7339" ph="insert into " />
+            <marker date="1500660985237" expanded="true" signature="7409:7738" ph="update set N... " />
+            <marker date="1500660985237" expanded="true" signature="7830:7938" ph="delete from " />
+            <marker date="1500660985237" expanded="true" signature="8021:8273" ph="delete from " />
+            <marker date="1500660985237" expanded="true" signature="8371:9492" ph="select u.USE... u" />
+            <marker date="1500660985237" expanded="true" signature="9590:9632" ph="select count... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/service/fhod/fhfile/impl/CcfileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="52" column="7" lean-forward="true" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1013#1043#0" expanded="false" />
+            <element signature="e#1261#1291#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/service/fhod/fhfile/CcfileManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/dao/DaoSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/fhoa/StaffMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1500660985193" expanded="true" signature="1260:1407" ph="insert into " />
+            <marker date="1500660985193" expanded="true" signature="1476:1562" ph="delete from " />
+            <marker date="1500660985193" expanded="true" signature="1630:2489" ph="update a set... " />
+            <marker date="1500660985193" expanded="true" signature="2583:2709" ph="select from where" />
+            <marker date="1500660985193" expanded="true" signature="3565:3614" ph="select from... " />
+            <marker date="1500660985193" expanded="true" signature="4014:4126" ph="update set U... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fhoa/staff/staff_edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fhoa/fhfile/fhfile_edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-460">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/util/Tools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="72" column="25" lean-forward="false" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+          <folding>
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1455#1456#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/util/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/save_result.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/util/Jurisdiction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="125" column="55" lean-forward="false" selection-start-line="125" selection-start-column="55" selection-end-line="125" selection-end-column="55" />
+          <folding>
+            <element signature="method#hasJurisdiction#0;class#Jurisdiction#0" expanded="false" />
+            <element signature="method#readMenu#0;class#Jurisdiction#0" expanded="false" />
+            <element signature="method#buttonJurisdiction#0;class#Jurisdiction#0" expanded="false" />
+            <element signature="method#readMenuButton#0;class#Jurisdiction#0" expanded="false" />
+            <element signature="e#4104#4105#0" expanded="true" />
+            <element signature="e#4178#4179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/util/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/util/DelAllFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/controller/base/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fhoa/fhfile/fhfile_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="264" column="36" lean-forward="false" selection-start-line="264" selection-start-column="36" selection-end-line="264" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#a#2;n#td#2;n#tr#0;n#tbody#0;n#table#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fhoa/fhfile/fhfile_view_txt.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="96" column="14" lean-forward="true" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/util/FileDownload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/controller/fhoa/fhfile/CcfileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="218" column="7" lean-forward="true" selection-start-line="218" selection-start-column="7" selection-end-line="218" selection-end-column="7" />
+          <folding>
+            <element signature="method#list#0;class#CcfileController#0" expanded="false" />
+            <element signature="e#1733#1743#0" expanded="true" />
+            <element signature="method#goAdd#0;class#CcfileController#0" expanded="false" />
+            <element signature="method#save#0;class#CcfileController#0" expanded="false" />
+            <element signature="method#delete#0;class#CcfileController#0" expanded="false" />
+            <element signature="method#goViewTxt#0;class#CcfileController#0" expanded="false" />
+            <element signature="method#goViewPdf#0;class#CcfileController#0" expanded="false" />
+            <element signature="e#6963#6978#0" expanded="true" />
+            <element signature="e#7079#7089#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/index/left.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="129" column="36" lean-forward="true" selection-start-line="129" selection-start-column="36" selection-end-line="129" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#li#3;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#li#3;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#li#3;n#ul#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

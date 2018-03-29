@@ -62,10 +62,10 @@ public class BaseController {
 		logger.info("start");
 		logger.info(interfaceName);
 	}
-	
+
 	public static void logAfter(Logger logger){
 		logger.info("end");
 		logger.info("");
 	}
-	
+
 }
