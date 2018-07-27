@@ -1,48 +1,48 @@
 package com.cc.admin.util;
 
 import com.cc.admin.entity.ScorePage;
-import com.cc.admin.test.MyCodeUtil;
 import net.sf.json.JSONObject;
 import org.apache.commons.httpclient.HttpStatus;
+import org.apache.commons.httpclient.methods.PostMethod;
+import org.apache.commons.httpclient.params.HttpMethodParams;
 import org.apache.commons.io.IOUtils;
-import org.apache.http.HttpEntity;
+import org.apache.http.HttpHost;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
-import org.apache.http.ParseException;
-import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.CookieStore;
+import org.apache.http.client.config.RequestConfig;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
-import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.cookie.Cookie;
 import org.apache.http.impl.client.BasicCookieStore;
 import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.message.BasicHeader;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 import org.junit.Test;
-import com.cc.admin.util.CommonUtil;
-import javax.sound.midi.Soundbank;
+import com.cc.admin.util.FileUtil;
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import static com.cc.admin.util.CommonUtil.downloadImage;
-
+import org.apache.http.impl.client.cache.CacheConfig;
+import org.apache.http.impl.client.cache.CachingHttpClients;
+import static com.cc.admin.util.FileUtil.delFile;
 
 public class JiaoWuUtil {
 
     //String username, String password
+    public static CloseableHttpClient httpClient = HttpClients.createDefault();;
+    public static String cookie = getCookie("http://jwxt.xtu.edu.cn/jsxsd",httpClient);
 
-
-
-    public static void  loginJWXT() throws Exception {
-        CloseableHttpClient httpClient = HttpClients.createDefault();
+    public static Map<String, Object>  loginJWXT(PageData pd) throws Exception {
+        String username = pd.getString("USERNAME");
+        String password = pd.getString("PASSWORD");
+        Map<String,Object> result = new HashMap<String, Object>();
         String data = null;
-        String cookie = getCookie("http://jwxt.xtu.edu.cn/jsxsd",httpClient);
         HttpPost httpPost = new HttpPost("http://jwxt.xtu.edu.cn/jsxsd/xk/LoginToXk?flag=sess");
         httpPost.addHeader(new BasicHeader("Cookie",cookie));
         try {
@@ -62,13 +62,14 @@ public class JiaoWuUtil {
         getYZCode(httpClient,cookie);
         //模拟登陆
         //验证码识别
-        String yzmcode = MyCodeUtil.getCode("img/code/code.jsp");
-        String encoded = getEncoded(data);
-        HttpPost httpPost2 = new HttpPost("http://jwxt.xtu.edu.cn/jsxsd/xk/LoginToXk");
+        String yzmcode = MyCodeUtil.getCode( "D:\\img\\code.jsp");
+        String encoded = getEncoded(data,username,password);
+        HttpPost httpPost2 = new HttpPost("http://jwxt.xtu.edu.cn/jsxsd/xk/LoginToXk" );
         httpPost2.addHeader(new BasicHeader("Cookie",cookie));
+        httpPost2.addHeader("Cache-Control", "no-cache");
         ArrayList<NameValuePair> par = new ArrayList<NameValuePair>();
-        par.add(new BasicNameValuePair("USERNAME","2015551514"));
-        par.add(new BasicNameValuePair("PASSWORD","134679852"));
+        par.add(new BasicNameValuePair("USERNAME",pd.getString("USERNAME")));//pd.getString("USERNAME")
+        par.add(new BasicNameValuePair("PASSWORD",pd.getString("PASSWORD")));//pd.getString("PASSWORD")
         par.add(new BasicNameValuePair("encoded",encoded));
         par.add(new BasicNameValuePair("RANDOMCODE",yzmcode));
         httpPost2.setEntity(new UrlEncodedFormEntity(par));
@@ -83,17 +84,61 @@ public class JiaoWuUtil {
         Pattern errorP = Pattern.compile(errorPattern);
         Matcher errorM = errorP.matcher(resultStr);
         if(errorM.find()){
+            result.put("error",errorM.group(1));
             System.out.println(errorM.group(1));
-           //return errorM.group(1);
         }else {
-            System.out.println("success");
-            //return "success";
+            result.put("error","success");
+            System.out.println("1");
         }
+        DelAllFile.delFolder("D:\\img");
+        String name =  getIndexInfo(httpClient,cookie).get(0);
+        System.out.println(name);
+        result.put("Cookie",cookie);
+        result.put("httpClient",httpClient);
+        result.put("name",name);
+        return result;
+    }
+
+    @Test
+    public void test() throws Exception {
+        PageData pd = new PageData();
+        loginJWXT(pd);
     }
 
 
-    public static void getInfo(CloseableHttpClient httpClient,String cookie) throws IOException {
-        HttpGet acchttpGet = new HttpGet("http://jwxt.xtu.edu.cn/jsxsd/kscj/cjcx_list?xq=2016-2017-2");
+    /**
+     * 得到姓名和学号
+     * @param httpClient
+     * @param cookie
+     * @return
+     * @throws IOException
+     */
+    public static List<String> getIndexInfo(CloseableHttpClient httpClient,String cookie) throws IOException {
+        //姓名
+        HttpGet acchttpGet = new HttpGet("http://jwxt.xtu.edu.cn/jsxsd/framework/main.jsp");
+        acchttpGet.addHeader(new BasicHeader("Cookie",cookie));
+        HttpResponse accresponse = httpClient.execute(acchttpGet);
+        String resultStr = EntityUtils.toString(accresponse.getEntity());
+        String pattern = "<div id=\"Top1_divLoginName\" class=\"Nsb_top_menu_nc\" style=\"color: #000000;\">(.*?)\\((.*?)\\)</div>";
+        Pattern r = Pattern.compile(pattern);
+        Matcher m = r.matcher(resultStr);
+        List<String> result = new ArrayList<String>();
+        m.find();
+        result.add(m.group(1));
+        result.add(m.group(2));
+        return result;
+    }
+
+    /**
+     * 查成绩
+     * @param httpClient
+     * @param cookie
+     * @return
+     * @throws IOException
+     */
+    public static List<ScorePage> getScoreInfo(CloseableHttpClient httpClient,String cookie,String url) throws IOException {
+        ArrayList<ScorePage> socreInfo = new ArrayList<ScorePage>();
+        HttpGet acchttpGet = new HttpGet(url);
         acchttpGet.addHeader(new BasicHeader("Cookie",cookie));
         HttpResponse accresponse = httpClient.execute(acchttpGet);
         String resultStr = EntityUtils.toString(accresponse.getEntity());
@@ -105,26 +150,32 @@ public class JiaoWuUtil {
         while(m.find()){
             result.add(m.group());
         }
-        String resultpart1 = result.get(0);
+
+        String resultpart = "";  //得到某个科目的数据
         String pattern2 =  "<tr>\\s+<td>(.*?)</td>\\s+<td>(.*?)</td>\\s+<td align=\"left\">(.*?)</td>\\s+<td style=\" \"><a href=\"javascript:JsMod.*?\">(.*?)</a></td>\\s+<td>(.*?)</td>\\s+<td>(.*?)</td>\\s+<td>(.*?)</td>\\s+<td>(.*?)</td>\\s+<td>(.*?)</td>\\s+</tr>";
         String pattern3 = "<td align=\"left\">(.*?)</td>";
-        for(int i = 0;i < 1;i++) {
+        for(int i = 0;i < result.size();i++) {
+            resultpart = result.get(i);
             Pattern r1 = Pattern.compile(pattern2);
-            Matcher m1 = r1.matcher(resultpart1);
+            Matcher m1 = r1.matcher(resultpart);
             List<String> result1 = new ArrayList<String>();
             m1.find();
             for(int j = 1;j <= 9 ;j++){
                 result1.add(m1.group(j));
             }
-            //for(int j = 1;j <= 9 ;j++){
-            //    result1.add(m1.group(j));
-            //}
             ScorePage scorePage = new ScorePage(result1.get(0),result1.get(1),result1.get(2),result1.get(3),result1.get(4),result1.get(5),result1.get(6),result1.get(7),result1.get(8));
-            System.out.println("score: " + scorePage.toString());
+            socreInfo.add(scorePage);
+            //System.out.println("score: " + scorePage.toString());
         }
+        return socreInfo;
     }
 
-    //下载验证码图片
+    /**
+     * 下载验证码图片
+     * @param httpClient
+     * @param cookie
+     * @throws IOException
+     */
     public  static void getYZCode(CloseableHttpClient httpClient,String cookie) throws IOException {
         final HttpGet httpGet = new HttpGet("http://jwxt.xtu.edu.cn/jsxsd/verifycode.servlet");
         httpGet.addHeader(new BasicHeader("Cookie",cookie));
@@ -135,14 +186,13 @@ public class JiaoWuUtil {
         if (codeResponse.getStatusLine().getStatusCode() != org.apache.http.HttpStatus.SC_OK) {
             System.err.println("Method failed: " + codeResponse.getStatusLine());
         }
-        String picName = "img/code";
+        String picName = "D:\\img";
         final File f = new File(picName);
         f.mkdirs();
         picName += "/code.jpg";
         final InputStream inputStream = codeResponse.getEntity().getContent();
-        final OutputStream outStream = new FileOutputStream(picName);
+        final OutputStream outStream = new FileOutputStream("D:\\img\\code.jpg");
         IOUtils.copy(inputStream, outStream);
-        inputStream.close();
         outStream.close();
         httpGet.releaseConnection();
     }
@@ -165,12 +215,11 @@ public class JiaoWuUtil {
         return result;
     }
 
-    public static String getEncoded(String data){
+    public static String getEncoded(String data,String username,String password){
         String encoded = "";
         String scode = data.split("#")[0];
         String sxh = data.split("#")[1];
-        //document.getElementById("Form1").USERNAME.value+'%%%'+document.getElementById("Form1").PASSWORD.value;
-        String code="2015551514" + "%%%" + "134679852";
+        String code=username + "%%%" + password;
 
         for(int i=0;i<code.length();i++){
             if(i<20){
@@ -184,4 +233,6 @@ public class JiaoWuUtil {
         System.out.println("encoded :" + encoded);
         return encoded;
     }
+
+
 }

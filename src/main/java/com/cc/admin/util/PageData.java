@@ -8,7 +8,7 @@ import java.io.Reader;
 import java.util.*;
 
 /**
- * 说明：参数封装Map
+ * 说明：参数封装Map，用来自动将前台传递过来的数组参数自动装换成Map对象(PageData的对象)
  * 创建人：FH Q313596790
  * 修改时间：2014年9月20日
  * @version

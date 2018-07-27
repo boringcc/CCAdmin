@@ -7,6 +7,7 @@ import org.apache.http.HttpStatus;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.HttpClientBuilder;
+import org.junit.Test;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
@@ -182,5 +183,6 @@ public class CommonUtil {
 		fs.write("\r\n".getBytes());
 		fs.close();
 	}
+
 
 }

@@ -10,116 +10,121 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23e4c1ac-dcae-4744-8860-2792db009d02" name="Default" comment="完善了系统用户这个模块的功能">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/lib/junit-3.8.1.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/controller/app/sysuser/RegisterController.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/controller/app/sysuser/RegisterController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/controller/base/BaseController.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/controller/base/BaseController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/controller/fhoa/fhfile/CcfileController.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/controller/fhoa/fhfile/CcfileController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/controller/system/head/HeadController.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/controller/system/head/HeadController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/controller/system/login/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/controller/system/login/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/controller/system/menu/MenuController.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/controller/system/menu/MenuController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/controller/system/user/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/controller/system/user/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/dao/DAO.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/dao/DAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/dao/DaoSupport.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/dao/DaoSupport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/entity/Msg.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/entity/Msg.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/entity/Page.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/entity/Page.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/entity/system/Department.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/entity/system/Department.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/entity/system/Dictionaries.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/entity/system/Dictionaries.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/entity/system/Menu.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/entity/system/Menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/entity/system/Role.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/entity/system/Role.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/entity/system/User.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/entity/system/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/interceptor/LoginHandlerInterceptor.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/interceptor/LoginHandlerInterceptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/interceptor/shiro/ShiroRealm.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/interceptor/shiro/ShiroRealm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/plugin/PagePlugin.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/plugin/PagePlugin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/fhod/fhfile/CcfileManager.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/service/fhod/fhfile/CcfileManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/fhod/fhfile/impl/CcfileService.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/service/fhod/fhfile/impl/CcfileService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/appuser/AppuserManager.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/appuser/AppuserManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/appuser/impl/AppuserService.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/appuser/impl/AppuserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/buttonrights/ButtonrightsManager.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/buttonrights/ButtonrightsManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/buttonrights/impl/ButtonrightsService.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/buttonrights/impl/ButtonrightsService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/fhbutton/FhbuttonManager.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/fhbutton/FhbuttonManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/fhbutton/impl/FhbuttonService.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/fhbutton/impl/FhbuttonService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/fhlog/FHlogManager.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/fhlog/FHlogManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/fhlog/impl/FHlogService.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/fhlog/impl/FHlogService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/menu/MenuManager.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/menu/MenuManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/menu/impl/MenuService.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/menu/impl/MenuService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/role/RoleManager.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/role/RoleManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/role/impl/RoleService.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/role/impl/RoleService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/user/UserManager.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/user/UserManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/user/impl/UserService.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/user/impl/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/AppUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/util/AppUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/Const.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/util/Const.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/DateUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/util/DateUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/DelAllFile.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/util/DelAllFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/FileDownload.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/util/FileDownload.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/FileUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/util/FileUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/Jurisdiction.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/util/Jurisdiction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/Logger.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/util/Logger.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/MD5.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/util/MD5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/MapDistance.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/util/MapDistance.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/PageData.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/util/PageData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/PathUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/util/PathUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/PublicUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/util/PublicUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/ReflectHelper.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/util/ReflectHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/Tools.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/util/Tools.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/UuidUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/admin/util/UuidUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/controller/app/sysuser/RegisterController.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/controller/app/sysuser/RegisterController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/controller/base/BaseController.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/controller/base/BaseController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/controller/fhoa/fhfile/CcfileController.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/controller/fhoa/fhfile/CcfileController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/controller/system/head/HeadController.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/controller/system/head/HeadController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/controller/system/login/LoginController.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/controller/system/login/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/controller/system/menu/MenuController.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/controller/system/menu/MenuController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/controller/system/user/UserController.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/controller/system/user/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/dao/DAO.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/dao/DAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/dao/DaoSupport.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/dao/DaoSupport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/entity/Msg.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/entity/Msg.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/entity/Page.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/entity/Page.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/entity/system/Department.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/entity/system/Department.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/entity/system/Dictionaries.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/entity/system/Dictionaries.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/entity/system/Menu.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/entity/system/Menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/entity/system/Role.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/entity/system/Role.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/entity/system/User.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/entity/system/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/interceptor/LoginHandlerInterceptor.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/interceptor/LoginHandlerInterceptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/interceptor/shiro/ShiroRealm.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/interceptor/shiro/ShiroRealm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/plugin/PagePlugin.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/plugin/PagePlugin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/fhod/fhfile/CcfileManager.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/fhod/fhfile/CcfileManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/fhod/fhfile/impl/CcfileService.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/fhod/fhfile/impl/CcfileService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/system/appuser/AppuserManager.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/system/appuser/AppuserManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/system/appuser/impl/AppuserService.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/system/appuser/impl/AppuserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/system/buttonrights/ButtonrightsManager.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/system/buttonrights/ButtonrightsManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/system/buttonrights/impl/ButtonrightsService.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/system/buttonrights/impl/ButtonrightsService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/system/fhbutton/FhbuttonManager.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/system/fhbutton/FhbuttonManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/system/fhbutton/impl/FhbuttonService.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/system/fhbutton/impl/FhbuttonService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/system/fhlog/FHlogManager.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/system/fhlog/FHlogManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/system/fhlog/impl/FHlogService.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/system/fhlog/impl/FHlogService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/system/menu/MenuManager.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/system/menu/MenuManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/system/menu/impl/MenuService.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/system/menu/impl/MenuService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/system/role/RoleManager.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/system/role/RoleManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/system/role/impl/RoleService.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/system/role/impl/RoleService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/system/user/UserManager.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/system/user/UserManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/system/user/impl/UserService.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/service/system/user/impl/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/AppUtil.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/AppUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/Const.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/Const.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/DateUtil.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/DateUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/DelAllFile.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/DelAllFile.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/code/code.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result/code.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/controller/app/sysuser/RegisterController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/controller/base/BaseController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/controller/fhoa/fhfile/CcfileController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/controller/jiaowu/JiaowuLoginController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/controller/system/head/HeadController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/controller/system/login/LoginController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/controller/system/menu/MenuController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/controller/system/user/UserController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/dao/DAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/dao/DaoSupport.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/entity/Msg.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/entity/Page.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/entity/ScorePage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/entity/YZCode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/entity/system/Department.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/entity/system/Dictionaries.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/entity/system/Menu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/entity/system/Role.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/entity/system/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/interceptor/LoginHandlerInterceptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/interceptor/shiro/ShiroRealm.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/plugin/PagePlugin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/fhod/fhfile/CcfileManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/fhod/fhfile/impl/CcfileService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/YZCode/YZCodeManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/appuser/AppuserManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/appuser/impl/AppuserService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/buttonrights/ButtonrightsManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/buttonrights/impl/ButtonrightsService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/fhbutton/FhbuttonManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/fhbutton/impl/FhbuttonService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/fhlog/FHlogManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/fhlog/impl/FHlogService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/menu/MenuManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/menu/impl/MenuService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/role/RoleManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/role/impl/RoleService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/user/UserManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/service/system/user/impl/UserService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/test/MyCodeUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/test/test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/AppUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/CommonUtil$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/CommonUtil$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/CommonUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/Const.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/DateUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/DelAllFile.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/FileDownload.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/FileUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/JiaoWuUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/Jurisdiction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/Logger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/MD5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/MapDistance.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/PageData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/PathUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/PublicUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/ReflectHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/Tools.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/admin/util/UuidUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dbconfig.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ehcache.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mybatis/fhoa/DatajurMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mybatis/fhoa/DepartmentMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mybatis/fhoa/FhfileMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mybatis/fhoa/StaffMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mybatis/mybatis-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mybatis/system/AppuserMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mybatis/system/ButtonrightsMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mybatis/system/CodeEditorMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mybatis/system/CreateCodeMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mybatis/system/DictionariesMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mybatis/system/FHlogMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mybatis/system/FhbuttonMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mybatis/system/FhsmsMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mybatis/system/LogInImgMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mybatis/system/MenuMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mybatis/system/RoleMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mybatis/system/UserMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mybatis/system/UserPhotoMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/spring/ApplicationContext-dataSource.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/spring/ApplicationContext-main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/spring/ApplicationContext-mvc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/spring/ApplicationContext-shiro.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/test/MyCodeUtil.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/controller/jiaowu/JiaowuLoginController.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/controller/jiaowu/JiaowuLoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/test/test.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/test/test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/CommonUtil$1.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/CommonUtil$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/CommonUtil$2.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/CommonUtil$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/CommonUtil.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/CommonUtil.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/FileUtil.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/FileUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/Jurisdiction.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/Jurisdiction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/Logger.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/Logger.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/MD5.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/MD5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/MapDistance.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/MapDistance.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/PageData.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/PageData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/JiaoWuUtil.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/JiaoWuUtil.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/PathUtil.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/PathUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/PublicUtil.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/PublicUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/ReflectHelper.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/ReflectHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/Tools.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/Tools.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/UuidUtil.class" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/com/cc/admin/util/UuidUtil.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/guanwan_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/guanwan_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guanwan.iml" afterPath="$PROJECT_DIR$/guanwan.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cc/admin/controller/jiaowu/JiaowuLoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/cc/admin/controller/jiaowu/JiaowuLoginController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cc/admin/test/test.java" afterPath="$PROJECT_DIR$/src/main/java/com/cc/admin/test/test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cc/admin/util/CommonUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/cc/admin/util/CommonUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cc/admin/util/FileUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/cc/admin/util/FileUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cc/admin/util/JiaoWuUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/cc/admin/util/JiaoWuUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cc/admin/util/PageData.java" afterPath="$PROJECT_DIR$/src/main/java/com/cc/admin/util/PageData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cc/admin/util/PathUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/cc/admin/util/PathUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/ehcache.xml" afterPath="$PROJECT_DIR$/src/main/resources/ehcache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jiaoWu/index/jwLogin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jiaoWu/index/jwLogin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/index/default.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/index/default.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/index/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/index/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/jsp/system/index/login.jsp" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/jsp/system/index/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/ehcache.xml" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/classes/ehcache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/jsp/jiaoWu/index/jwLogin.jsp" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/jsp/jiaoWu/index/jwLogin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/jsp/system/index/default.jsp" afterPath="$PROJECT_DIR$/target/guanwan-0.0.1-SNAPSHOT/WEB-INF/jsp/system/index/default.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/cc/admin/test/MyCodeUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/cc/admin/util/MyCodeUtil.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -139,59 +144,103 @@
       <file leaf-file-name="jwLogin.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jiaoWu/index/jwLogin.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-572">
-              <caret line="106" column="19" lean-forward="true" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
+            <state relative-caret-position="3565">
+              <caret line="155" column="16" lean-forward="false" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/index/login.jsp">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="106" column="49" lean-forward="false" selection-start-line="106" selection-start-column="49" selection-end-line="106" selection-end-column="49" />
+            <state relative-caret-position="23">
+              <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommonUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/util/CommonUtil.java">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/controller/system/user/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="39" column="25" lean-forward="false" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+            <state relative-caret-position="759">
+              <caret line="60" column="37" lean-forward="false" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JiaoWuUtil.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/util/JiaoWuUtil.java">
+      <file leaf-file-name="score_list.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jiaoWu/score/score_list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="41" column="24" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2759#2774#0" expanded="true" />
-                <element signature="method#getInfo#0;class#JiaoWuUtil#0" expanded="false" />
-                <element signature="e#4597#4605#0" expanded="true" />
-                <element signature="e#5236#5244#0" expanded="true" />
-                <element signature="e#7330#7345#0" expanded="true" />
-                <element signature="method#getEncoded#0;class#JiaoWuUtil#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="-92">
+              <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JiaowuLoginController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JiaowuLoginController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/controller/jiaowu/JiaowuLoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+            <state relative-caret-position="713">
+              <caret line="83" column="36" lean-forward="true" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1272#1288#0" expanded="true" />
+                <element signature="e#1504#1519#0" expanded="true" />
+                <element signature="method#defaultPage#0;class#JiaowuLoginController#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PAGE.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/config/PAGE.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tab.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jiaoWu/index/tab.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1265">
+              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jiaoWu/index/main.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jiaoWu/index/head.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1449">
+              <caret line="63" column="50" lean-forward="false" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="left.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jiaoWu/index/left.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1127">
+              <caret line="49" column="4" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -202,27 +251,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hangg</find>
-      <find>ali</find>
-      <find>alias</find>
-      <find>APP_</find>
-      <find>${APP_PATH}</find>
-      <find>head/getList</find>
-      <find>getHeadMsg</find>
-      <find>&lt;iframe name=&quot;mainFrame&quot;</find>
       <find>&lt;span class=&quot;menu-text&quot;&gt;后台首页&lt;/span&gt;</find>
       <find>setHasMenu</find>
       <find>system.out</find>
       <find>sys</find>
       <find>/user/listUsers.do</find>
-      <find>user_info</find>
       <find>/user/goEditMyU.do</find>
       <find>editUserH</find>
       <find>zhongxin2</find>
@@ -239,6 +279,15 @@
       <find>---&gt;获取用户权限</find>
       <find>sava</find>
       <find>save</find>
+      <find>JSON</find>
+      <find>net.sf</find>
+      <find>net.</find>
+      <find>user_info</find>
+      <find>login_default</find>
+      <find>head.js</find>
+      <find>top.hangg</find>
+      <find>Page</find>
+      <find>/listusers</find>
     </findStrings>
     <replaceStrings>
       <replace>id</replace>
@@ -259,24 +308,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/service/system/role/RoleManager.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/js/myjs/head.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/service/system/fhbutton/impl/FhbuttonService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/service/system/fhbutton/FhbuttonManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/service/system/appuser/AppuserManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/service/system/appuser/impl/AppuserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/service/system/buttonrights/ButtonrightsManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/service/system/buttonrights/impl/ButtonrightsService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/entity/system/Department.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/index/top.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/index/main.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/index/null.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/index/default.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/index/tab.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/controller/system/head/HeadController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/controller/system/menu/MenuController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/controller/app/sysuser/RegisterController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/util/PageData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/service/system/fhlog/FHlogManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/service/system/fhlog/impl/FHlogService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/util/ReflectHelper.java" />
@@ -289,9 +321,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/service/fhod/fhfile/CcfileManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/service/fhod/fhfile/impl/CcfileService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/index/left.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/util/FileUtil.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fhoa/fhfile/fhfile_list.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/util/DelAllFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/controller/base/BaseController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/controller/fhoa/fhfile/CcfileController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/util/FileDownload.java" />
@@ -302,14 +332,33 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jiaoWu/index/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/controller/jiaowu/loginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/controller/jiaowu/jiaowuLoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/test/MyCodeUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/test/test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/util/CommonUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/util/JiaoWuUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jiaoWu/index/jwLogin.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/controller/jiaowu/JiaowuLoginController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jiaoWu/index/testlogin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/test/MyCodeUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/util/CommonUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/util/PathUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/util/MyCodeUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/util/FileUtil.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/index/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/ehcache.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/util/MyHttpClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/util/DelAllFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/test/test.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jiaoWu/index/jwLogin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jiaoWu/index/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jiaoWu/index/top.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jiaoWu/index/head.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jiaoWu/index/left.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/util/JiaoWuUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/test/test2.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/index/tab.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jiaoWu/index/tab.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/index/default.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jiaoWu/index/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/controller/jiaowu/JiaowuLoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jiaoWu/score/score_list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cc/admin/util/PageData.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
       </list>
     </option>
   </component>
@@ -345,9 +394,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="144" />
-    <option name="width" value="1814" />
-    <option name="height" value="1026" />
+    <option name="x" value="-10" />
+    <option name="width" value="1635" />
+    <option name="height" value="1036" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -367,17 +416,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="CCAdmin" type="b2602c69:ProjectViewProjectNode" />
               <item name="CCAdmin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CCAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CCAdmin" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CCAdmin" type="b2602c69:ProjectViewProjectNode" />
@@ -429,82 +477,39 @@
               <item name="CCAdmin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cc" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CCAdmin" type="b2602c69:ProjectViewProjectNode" />
               <item name="CCAdmin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cc" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="jiaowu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CCAdmin" type="b2602c69:ProjectViewProjectNode" />
               <item name="CCAdmin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CCAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CCAdmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CCAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CCAdmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="jiaoWu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CCAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CCAdmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="jiaoWu" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CCAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CCAdmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CCAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CCAdmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cc" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -515,15 +520,12 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4269275" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../QiangZhiJiaoWuPaChong" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chaCJ" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\ijJavaWorkspace\CCAdmin\src\main\webapp\WEB-INF\jsp\jiaoWu\index" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ijJavaWorkspace\CCAdmin\src\main\webapp" />
       <recent name="E:\ijJavaWorkspace\CCAdmin\src\main\webapp\WEB-INF\jsp" />
-      <recent name="E:\ijJavaWorkspace\CCAdmin\src\main\resources\mybatis" />
-      <recent name="E:\ijJavaWorkspace\CCAdmin\src\main\java\com\cc\admin\service\system" />
-      <recent name="E:\ijJavaWorkspace\CCAdmin\src\main\webapp\WEB-INF\jsp\system" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.cc.admin.entity" />
@@ -532,9 +534,12 @@
       <recent name="com.cc.admin.plugin" />
       <recent name="com.cc.admin.controller.system.head" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\ijJavaWorkspace\CCAdmin\src\main\webapp" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ijJavaWorkspace\CCAdmin\src\main\webapp\WEB-INF\jsp\jiaoWu\index" />
       <recent name="E:\ijJavaWorkspace\CCAdmin\src\main\webapp\WEB-INF\jsp" />
+      <recent name="E:\ijJavaWorkspace\CCAdmin\src\main\resources\mybatis" />
+      <recent name="E:\ijJavaWorkspace\CCAdmin\src\main\java\com\cc\admin\service\system" />
+      <recent name="E:\ijJavaWorkspace\CCAdmin\src\main\webapp\WEB-INF\jsp\system" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -550,7 +555,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Unnamed">
-    <configuration name="JiaoWuUtil.loginJWXT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JiaoWuUtil.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.cc.admin.util.*" />
@@ -562,54 +567,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.cc.admin.util" />
       <option name="MAIN_CLASS_NAME" value="com.cc.admin.util.JiaoWuUtil" />
-      <option name="METHOD_NAME" value="loginJWXT" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="JiaowuLoginController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.cc.admin.controller.jiaowu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.cc.admin.controller.jiaowu.JiaowuLoginController" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="guanwan" />
-      <envs />
-      <method>
-        <option name="Make" enabled="false" />
-        <option name="MakeNoErrorCheck" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JiaowuLoginController.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.cc.admin.controller.jiaowu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="guanwan" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.cc.admin.controller.jiaowu" />
-      <option name="MAIN_CLASS_NAME" value="com.cc.admin.controller.jiaowu.JiaowuLoginController" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -634,6 +591,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_guanwan" />
+        <option name="JNDI_PORT" value="1088" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -780,6 +738,79 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.cc.admin.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.cc.admin.test.test2" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="guanwan" />
+      <envs />
+      <method>
+        <option name="Make" enabled="false" />
+        <option name="MakeNoErrorCheck" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test2.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.cc.admin.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="guanwan" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.cc.admin.test" />
+      <option name="MAIN_CLASS_NAME" value="com.cc.admin.test.test2" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.cc.admin.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="guanwan" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.cc.admin.test" />
+      <option name="MAIN_CLASS_NAME" value="com.cc.admin.test.test" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="test.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -805,19 +836,21 @@
       <envs />
       <patterns />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.test.test2" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.JiaoWuUtil.loginJWXT" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.JiaowuLoginController.test" />
-      <item index="4" class="java.lang.String" itemvalue="Application.JiaowuLoginController" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.JiaoWuUtil.test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.test.test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.test.test2" />
+      <item index="4" class="java.lang.String" itemvalue="Application.test2" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.test2.test" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.JiaowuLoginController" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.JiaowuLoginController.test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.JiaoWuUtil.loginJWXT" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.test2.test" />
+        <item index="1" class="java.lang.String" itemvalue="Application.test2" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.JiaoWuUtil.test" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.test.test2" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.test.test" />
       </list>
     </recent_temporary>
   </component>
@@ -872,7 +905,22 @@
       <workItem from="1522484593417" duration="597000" />
       <workItem from="1522585251900" duration="3611000" />
       <workItem from="1522845971177" duration="7956000" />
-      <workItem from="1522853994088" duration="3965000" />
+      <workItem from="1522853994088" duration="4613000" />
+      <workItem from="1522929311171" duration="11333000" />
+      <workItem from="1523280890866" duration="1184000" />
+      <workItem from="1523448807323" duration="9793000" />
+      <workItem from="1523536713193" duration="7763000" />
+      <workItem from="1523544581418" duration="2996000" />
+      <workItem from="1523692966939" duration="5810000" />
+      <workItem from="1523869219874" duration="5398000" />
+      <workItem from="1523888400878" duration="7292000" />
+      <workItem from="1523941272794" duration="2999000" />
+      <workItem from="1523944972162" duration="7256000" />
+      <workItem from="1524053418787" duration="5223000" />
+      <workItem from="1524061833764" duration="1723000" />
+      <workItem from="1524141415453" duration="9323000" />
+      <workItem from="1527081192611" duration="30000" />
+      <workItem from="1532675287409" duration="265000" />
     </task>
     <task id="LOCAL-00001" summary="加入了错误发生抖动的效果。">
       <created>1510577979507</created>
@@ -899,42 +947,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JiaoWuUtil_loginJWXT - 2018.04.04 at 23h 16m 23s.xml">
-      <configuration name="JiaoWuUtil.loginJWXT" configurationId="JUnit" />
+    <history-entry file="JiaoWuUtil_test - 2018.04.14 at 17h 26m 21s.xml">
+      <configuration name="JiaoWuUtil.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JiaoWuUtil_loginJWXT - 2018.04.04 at 23h 16m 41s.xml">
-      <configuration name="JiaoWuUtil.loginJWXT" configurationId="JUnit" />
+    <history-entry file="JiaoWuUtil_test - 2018.04.14 at 20h 39m 40s.xml">
+      <configuration name="JiaoWuUtil.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JiaoWuUtil_loginJWXT - 2018.04.04 at 23h 17m 37s.xml">
-      <configuration name="JiaoWuUtil.loginJWXT" configurationId="JUnit" />
+    <history-entry file="JiaoWuUtil_test - 2018.04.16 at 20h 56m 50s.xml">
+      <configuration name="JiaoWuUtil.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JiaoWuUtil_loginJWXT - 2018.04.04 at 23h 18m 47s.xml">
-      <configuration name="JiaoWuUtil.loginJWXT" configurationId="JUnit" />
+    <history-entry file="JiaoWuUtil_test - 2018.04.16 at 21h 06m 41s.xml">
+      <configuration name="JiaoWuUtil.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JiaoWuUtil_loginJWXT - 2018.04.04 at 23h 41m 50s.xml">
-      <configuration name="JiaoWuUtil.loginJWXT" configurationId="JUnit" />
+    <history-entry file="JiaoWuUtil_test - 2018.04.17 at 00h 32m 32s.xml">
+      <configuration name="JiaoWuUtil.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JiaowuLoginController_test - 2018.04.04 at 23h 43m 06s.xml">
-      <configuration name="JiaowuLoginController.test" configurationId="JUnit" />
+    <history-entry file="JiaoWuUtil_test - 2018.04.17 at 13h 44m 18s.xml">
+      <configuration name="JiaoWuUtil.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JiaowuLoginController_test - 2018.04.04 at 23h 44m 34s.xml">
-      <configuration name="JiaowuLoginController.test" configurationId="JUnit" />
+    <history-entry file="test2_test - 2018.04.18 at 00h 21m 08s.xml">
+      <configuration name="test2.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_test2 - 2018.04.04 at 23h 10m 01s.xml">
-      <configuration name="test.test2" configurationId="JUnit" />
+    <history-entry file="test_test - 2018.04.16 at 21h 57m 26s.xml">
+      <configuration name="test.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_test2 - 2018.04.04 at 23h 10m 26s.xml">
-      <configuration name="test.test2" configurationId="JUnit" />
+    <history-entry file="test_test - 2018.04.16 at 22h 00m 08s.xml">
+      <configuration name="test.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_test2 - 2018.04.04 at 23h 14m 05s.xml">
+    <history-entry file="test_test2 - 2018.04.16 at 22h 01m 09s.xml">
       <configuration name="test.test2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207396000" />
+    <option name="totallyTimeSpent" value="286432000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="144" y="0" width="1814" height="1026" extended-state="0" />
+    <frame x="-10" y="0" width="1635" height="1036" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2879046" sideWeight="0.50498754" order="7" side_tool="true" content_ui="tabs" />
@@ -946,20 +994,19 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946696" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14549653" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10454545" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3152425" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.69399536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.018181818" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5069284" sideWeight="0.49501246" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25883695" sideWeight="0.79859483" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.110730596" sideWeight="0.49501246" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24" sideWeight="0.7812041" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25883695" sideWeight="0.20140515" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26786786" sideWeight="0.2187959" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -967,6 +1014,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31477273" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284091" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -978,7 +1026,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2879046" sideWeight="0.50498754" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52268434" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5221894" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -987,23 +1035,23 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946696" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39976957" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10454545" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31704545" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31477273" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37613636" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1534091" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2875" sideWeight="0.49501246" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32027492" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5063437" sideWeight="0.49501246" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20228091" sideWeight="0.78977275" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22809124" sideWeight="0.21022727" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284091" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
@@ -1022,7 +1070,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1031,422 +1079,382 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/user/user_view.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/ace/js/ace/ace.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="36" column="97" lean-forward="true" selection-start-line="36" selection-start-column="97" selection-end-line="36" selection-end-column="97" />
+        <state relative-caret-position="218">
+          <caret line="417" column="20" lean-forward="false" selection-start-line="417" selection-start-column="20" selection-end-line="417" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/user/user_list.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/ace/avatars/dog.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/ace/avatars/profile-pic.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/ace/avatars/user.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/ace/avatars/avatar3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/ace/avatars/avatar4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/ace/avatars/avatar5.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/index/left.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1568">
-          <caret line="440" column="48" lean-forward="true" selection-start-line="440" selection-start-column="48" selection-end-line="440" selection-end-column="48" />
+        <state relative-caret-position="2484">
+          <caret line="108" column="116" lean-forward="false" selection-start-line="108" selection-start-column="116" selection-end-line="108" selection-end-column="116" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/user/user_edit.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/test/test2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="41" column="53" lean-forward="true" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/controller/system/user/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="150" column="0" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#listUsers#0;class#UserController#0" expanded="false" />
-            <element signature="method#listUsersForWindow#0;class#UserController#0" expanded="false" />
-            <element signature="method#editU#0;class#UserController#0" expanded="false" />
-            <element signature="method#goEditMyU#0;class#UserController#0" expanded="false" />
-            <element signature="method#goEditU#0;class#UserController#0" expanded="false" />
-            <element signature="method#goEditUfromOnline#0;class#UserController#0" expanded="false" />
-            <element signature="method#saveU#0;class#UserController#0" expanded="false" />
-            <element signature="method#deleteU#0;class#UserController#0" expanded="false" />
-            <element signature="method#deleteAll#0;class#UserController#0" expanded="false" />
-            <element signature="e#9622#9638#0" expanded="false" />
-            <element signature="e#9687#9697#0" expanded="false" />
-            <element signature="method#goAddU#0;class#UserController#0" expanded="false" />
-            <element signature="method#view#0;class#UserController#0" expanded="false" />
-            <element signature="method#goUploadExcel#0;class#UserController#0" expanded="false" />
-            <element signature="method#readExcel#0;class#UserController#0" expanded="false" />
-            <element signature="method#hasU#0;class#UserController#0" expanded="false" />
-            <element signature="e#13021#13037#0" expanded="false" />
-            <element signature="method#hasN#0;class#UserController#0" expanded="false" />
-            <element signature="e#13675#13691#0" expanded="false" />
-            <element signature="method#hasE#0;class#UserController#0" expanded="false" />
-            <element signature="e#14329#14345#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/system/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="123" column="27" lean-forward="true" selection-start-line="123" selection-start-column="27" selection-end-line="123" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/service/fhod/fhfile/impl/CcfileService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1196">
-          <caret line="52" column="7" lean-forward="true" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/service/fhod/fhfile/CcfileManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/fhoa/StaffMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fhoa/staff/staff_edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fhoa/fhfile/fhfile_edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/util/Tools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="72" column="25" lean-forward="false" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
-          <folding>
-            <element signature="e#1405#1406#0" expanded="false" />
-            <element signature="e#1455#1456#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="299">
+          <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/save_result.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="345">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/util/Jurisdiction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/index/tab.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="125" column="55" lean-forward="false" selection-start-line="125" selection-start-column="55" selection-end-line="125" selection-end-column="55" />
+        <state relative-caret-position="264">
+          <caret line="57" column="20" lean-forward="true" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/plugins/tab/js/tab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2743">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/controller/system/login/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="242" column="7" lean-forward="true" selection-start-line="242" selection-start-column="7" selection-end-line="242" selection-end-column="7" />
           <folding>
-            <element signature="method#hasJurisdiction#0;class#Jurisdiction#0" expanded="false" />
-            <element signature="method#readMenu#0;class#Jurisdiction#0" expanded="false" />
-            <element signature="method#buttonJurisdiction#0;class#Jurisdiction#0" expanded="false" />
-            <element signature="method#readMenuButton#0;class#Jurisdiction#0" expanded="false" />
-            <element signature="e#4104#4105#0" expanded="false" />
-            <element signature="e#4178#4179#0" expanded="false" />
+            <element signature="method#changeMenuF#0;class#LoginController#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/util/Const.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jiaoWu/index/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/util/DelAllFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/controller/base/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1219">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fhoa/fhfile/fhfile_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6072">
-          <caret line="264" column="36" lean-forward="false" selection-start-line="264" selection-start-column="36" selection-end-line="264" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fhoa/fhfile/fhfile_view_txt.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2208">
-          <caret line="96" column="14" lean-forward="false" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/util/FileDownload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/index/left.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2967">
-          <caret line="129" column="36" lean-forward="false" selection-start-line="129" selection-start-column="36" selection-end-line="129" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/controller/fhoa/fhfile/CcfileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2369">
-          <caret line="232" column="5" lean-forward="false" selection-start-line="232" selection-start-column="5" selection-end-line="232" selection-end-column="5" />
-          <folding>
-            <element signature="method#list#0;class#CcfileController#0" expanded="false" />
-            <element signature="method#goAdd#0;class#CcfileController#0" expanded="false" />
-            <element signature="method#save#0;class#CcfileController#0" expanded="false" />
-            <element signature="method#delete#0;class#CcfileController#0" expanded="false" />
-            <element signature="method#goViewTxt#0;class#CcfileController#0" expanded="false" />
-            <element signature="method#goViewPdf#0;class#CcfileController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/entity/system/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/service/system/YZCode.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/entity/YZCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="method#YZCode#0;class#YZCode#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/service/system/YZCode/impl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/dao/DaoSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/service/system/user/impl/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1426">
-          <caret line="70" column="13" lean-forward="false" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/service/system/user/UserManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/service/system/YZCode/impl/YZCodeService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/service/system/YZCode/YZCodeManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/entity/ScorePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="230">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/index/default.jsp">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/myjs/fhsms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1737">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/myjs/head.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1495">
+          <caret line="74" column="9" lean-forward="true" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/myjs/headEmail.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar!/javax/servlet/http/HttpServletRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/myjs/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="361" column="35" lean-forward="true" selection-start-line="361" selection-start-column="35" selection-end-line="361" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="322">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/util/AppUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/myjs/interfaceTest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="955">
-          <caret line="114" column="60" lean-forward="true" selection-start-line="114" selection-start-column="60" selection-end-line="114" selection-end-column="60" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/util/FileUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/myjs/map.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-506">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/code/code.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/controller/system/login/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/myjs/productCode.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="75" column="27" lean-forward="false" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="69">
+          <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_72/src.zip!/java/lang/Object.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/entity/system/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="219">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_72/src.zip!/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/util/JiaoWuUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="659" column="0" lean-forward="false" selection-start-line="659" selection-start-column="0" selection-end-line="659" selection-end-column="0" />
+        <state relative-caret-position="2346">
+          <caret line="144" column="70" lean-forward="false" selection-start-line="144" selection-start-column="70" selection-end-line="144" selection-end-column="70" />
           <folding>
-            <element signature="e#22786#22787#0" expanded="false" />
-            <element signature="e#22821#22822#0" expanded="false" />
+            <element signature="docComment;method#getIndexInfo#0;class#JiaoWuUtil#0" expanded="false" />
+            <element signature="docComment;method#getScoreInfo#0;class#JiaoWuUtil#0" expanded="false" />
+            <element signature="docComment;method#getYZCode#0;class#JiaoWuUtil#0" expanded="false" />
+            <element signature="method#getYZCode#0;class#JiaoWuUtil#0" expanded="false" />
+            <element signature="method#getCookie#0;class#JiaoWuUtil#0" expanded="false" />
+            <element signature="method#getEncoded#0;class#JiaoWuUtil#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_72/src.zip!/java/io/WinNTFileSystem.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/util/ReflectHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+        <state relative-caret-position="219">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/entity/ScorePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/entity/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="27" column="73" lean-forward="false" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_72/src.zip!/java/io/File.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/user/user_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="278" column="0" lean-forward="false" selection-start-line="278" selection-start-column="0" selection-end-line="278" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1978">
+          <caret line="86" column="62" lean-forward="false" selection-start-line="86" selection-start-column="62" selection-end-line="86" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar!/org/apache/http/conn/EofSensorInputStream.class">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/system/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-4499">
+          <caret line="148" column="14" lean-forward="true" selection-start-line="148" selection-start-column="14" selection-end-line="148" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/test/test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/util/PageData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="138" column="58" lean-forward="false" selection-start-line="138" selection-start-column="58" selection-end-line="138" selection-end-column="58" />
+        <state relative-caret-position="552">
+          <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
           <folding>
-            <element signature="method#testZhenZe#0;class#test#0" expanded="false" />
+            <element signature="e#1252#1253#0" expanded="false" />
+            <element signature="e#1278#1279#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/result/code.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/util/CommonUtil.java">
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="39" column="25" lean-forward="false" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/test/MyCodeUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/plugin/PagePlugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setMod#0;class#MyCodeUtil#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="345">
+          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jiaoWu/index/testlogin.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/ApplicationContext-dataSource.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/ApplicationContext-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jiaoWu/index/jwLogin.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/ApplicationContext-main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-572">
-          <caret line="106" column="19" lean-forward="true" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
+        <state relative-caret-position="414">
+          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="211" column="27" lean-forward="false" selection-start-line="211" selection-start-column="27" selection-end-line="211" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1771">
+          <caret line="119" column="20" lean-forward="false" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/index/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="106" column="49" lean-forward="false" selection-start-line="106" selection-start-column="49" selection-end-line="106" selection-end-column="49" />
+        <state relative-caret-position="-782">
+          <caret line="41" column="16" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/controller/system/user/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="60" column="37" lean-forward="false" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jiaoWu/index/head.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1449">
+          <caret line="63" column="50" lean-forward="false" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jiaoWu/index/left.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1127">
+          <caret line="49" column="4" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jiaoWu/index/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jiaoWu/index/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="10" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/config/PAGE.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jiaoWu/index/jwLogin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3565">
+          <caret line="155" column="16" lean-forward="false" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jiaoWu/index/tab.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1265">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/ace/css/less/skins/no-skin.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jiaoWu/score/score_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-92">
+          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/controller/jiaowu/JiaowuLoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+        <state relative-caret-position="713">
+          <caret line="83" column="36" lean-forward="true" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/admin/util/JiaoWuUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="41" column="24" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2759#2774#0" expanded="true" />
-            <element signature="method#getInfo#0;class#JiaoWuUtil#0" expanded="false" />
-            <element signature="e#4597#4605#0" expanded="true" />
-            <element signature="e#5236#5244#0" expanded="true" />
-            <element signature="e#7330#7345#0" expanded="true" />
-            <element signature="method#getEncoded#0;class#JiaoWuUtil#0" expanded="false" />
+            <element signature="e#1272#1288#0" expanded="true" />
+            <element signature="e#1504#1519#0" expanded="true" />
+            <element signature="method#defaultPage#0;class#JiaowuLoginController#0" expanded="false" />
           </folding>
         </state>
       </provider>

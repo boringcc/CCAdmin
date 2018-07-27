@@ -1,6 +1,7 @@
 package com.cc.admin.test;
 
 import com.cc.admin.entity.ScorePage;
+import com.cc.admin.util.MyCodeUtil;
 import net.sf.json.JSONObject;
 import org.apache.commons.httpclient.HttpStatus;
 import org.apache.commons.io.IOUtils;
@@ -82,14 +83,17 @@ public class test {
 
 
     @Test
-    public void test(){
-        CloseableHttpClient httpclient = HttpClients.createDefault();
-        try {
+    public void test() throws Exception {
+            CloseableHttpClient httpclient = HttpClients.createDefault();
+
             // 创建httpget.
-            HttpGet httpget = new HttpGet("http://jwxt.xtu.edu.cn/jsxsd/xk/LoginToXk?flag=sess");
-            System.out.println("executing request " + httpget.getURI());
+            HttpPost httpPost = new HttpPost("http://jwxt.xtu.edu.cn/jsxsd/xk/LoginToXk");
             // 执行get请求.
-            CloseableHttpResponse response = httpclient.execute(httpget);
+            CloseableHttpResponse response = httpclient.execute(httpPost);
+            ArrayList<NameValuePair> par = new ArrayList<NameValuePair>();
+            String yzmcode = MyCodeUtil.getCode("img/code/code.jsp");
+            par.add(new BasicNameValuePair("RANDOMCODE",yzmcode));
+            httpPost.setEntity(new UrlEncodedFormEntity(par));
             try {
                 // 获取响应实体
                 HttpEntity entity = response.getEntity();
@@ -107,20 +111,7 @@ public class test {
             } finally {
                 response.close();
             }
-        } catch (ClientProtocolException e) {
-            e.printStackTrace();
-        } catch (ParseException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            // 关闭连接,释放资源
-            try {
-                httpclient.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
+
     }
 
     @Test
@@ -155,7 +146,7 @@ public class test {
         ArrayList<NameValuePair> par = new ArrayList<NameValuePair>();
         par.add(new BasicNameValuePair("USERNAME","2015551514"));
         par.add(new BasicNameValuePair("PASSWORD","134679852"));
-        par.add(new BasicNameValuePair("encoded",encoded));
+        par.add(new BasicNameValuePair("encoded","123"));
         par.add(new BasicNameValuePair("RANDOMCODE",yzmcode));
         httpPost2.setEntity(new UrlEncodedFormEntity(par));
         try {

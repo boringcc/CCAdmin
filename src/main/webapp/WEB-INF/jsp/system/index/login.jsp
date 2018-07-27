@@ -104,7 +104,7 @@
                 <div class="form-actions">
                     <div style="width:86%;padding-left:8%;" class="">
                         <div style="float: left;padding-top: 2px;" class="pull-right">
-                            <a href="/jiaowu/test" class="btn btn-success">教务管理登录</a>
+                            <a href="/jiaowu/toLoginPage" class="btn btn-success">教务管理登录</a>
                         </div>
                         <!--
                         <div style="float: left;padding-top:2px;">

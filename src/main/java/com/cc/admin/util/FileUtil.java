@@ -1,5 +1,7 @@
 package com.cc.admin.util;
 
+import org.junit.Test;
+
 import java.io.*;
 import java.nio.ByteBuffer;
 import java.nio.MappedByteBuffer;
@@ -54,6 +56,7 @@ public class FileUtil {
 			e.printStackTrace();
 		}
 	}
+
 
 	/**
 	 * 读取到字节数组0
@@ -195,5 +198,7 @@ public class FileUtil {
 			}
 		}
 	}
+
+
 
 }

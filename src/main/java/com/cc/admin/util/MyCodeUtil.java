@@ -1,30 +1,26 @@
-package com.cc.admin.test;
+package com.cc.admin.util;
 
-import com.cc.admin.util.CommonUtil;
-import org.apache.commons.httpclient.HttpClient;
-import org.apache.commons.httpclient.HttpStatus;
-import org.apache.commons.httpclient.methods.GetMethod;
-import org.apache.commons.io.IOUtils;
+import com.cc.admin.test.test;
+import org.junit.Test;
+
 import javax.imageio.ImageIO;
-import javax.print.MultiDoc;
-import java.awt.*;
+import javax.sound.midi.Soundbank;
 import java.awt.image.BufferedImage;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
+import com.cc.admin.util.PathUtil;
 
 public class MyCodeUtil {
     private static String clazz = MyCodeUtil.class.getSimpleName();
     private static int whiteThreshold = 500;
     private static boolean useSvm = true;
 
-
     public static String getCode(String filePath) throws Exception {
-        BufferedImage img = myRemoveBackgroud("img/code/code.jpg");
-        ImageIO.write(img,"JPG",new File("result/code.jpg"));
-        String code = setMod("result/code.jpg");
+        BufferedImage img = myRemoveBackgroud("D:\\img\\code.jpg");
+        ImageIO.write(img,"JPG",new File("D:\\img\\code1.jpg"));
+        String code = setMod("D:\\img\\code1.jpg");
         return code;
     }
 
@@ -140,6 +136,8 @@ public class MyCodeUtil {
 
 
     }
+
+
 
 
 }

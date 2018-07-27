@@ -39,7 +39,7 @@ setTimeout("top.hangge()",500);
 									<i class="ace-icon fa fa-times"></i>
 								</button>
 								<i class="ace-icon fa fa-check green"></i>
-								欢迎使用 FH Admin 系统&nbsp;&nbsp;
+								欢迎使用 CC Admin 系统&nbsp;&nbsp;
 								<strong class="green">
 									&nbsp;QQ:313596790
 									<a href="http://www.fhadmin.org" target="_blank"><small>(&nbsp;www.fhadmin.org&nbsp;)</small></a>

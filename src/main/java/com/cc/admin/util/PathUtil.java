@@ -1,10 +1,13 @@
 package com.cc.admin.util;
 
+import org.junit.Test;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.sound.midi.Soundbank;
 import java.io.File;
+import java.io.IOException;
 
 /** 
  * 说明：路径工具类
@@ -85,5 +88,22 @@ public class PathUtil {
 		strResult = strBuf.toString();// +"ss/";//加入项目的名称
 		return strResult;
 	}
-	
+
+
+	@Test
+	public void getPath() throws IOException {
+		File file = new File("");
+		String path = file.getAbsolutePath();
+		String realPath[] = path.split("\\.");
+		System.out.println(realPath[0]);
+	}
+
+
+	public static String getPath1() throws IOException {
+		File file = new File("");
+		String path = file.getAbsolutePath();
+		String realPath[] = path.split("\\.");
+		return realPath[0];
+	}
+
 }
